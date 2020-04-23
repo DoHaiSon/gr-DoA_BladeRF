@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/haison98/gr-DoA_BladeRF/lib/qa_DoA_BladeRF.cc
+qa_DoA_BladeRF.h
+/home/haison98/gr-DoA_BladeRF/lib/qa_DoA_BladeRF.h
+
+/home/haison98/gr-DoA_BladeRF/lib/qa_DoA_BladeRF.h
+gnuradio/attributes.h
+-
+cppunit/TestSuite.h
+-
+
+/home/haison98/gr-DoA_BladeRF/lib/test_DoA_BladeRF.cc
+config.h
+/home/haison98/gr-DoA_BladeRF/lib/config.h
+cppunit/TextTestRunner.h
+-
+cppunit/XmlOutputter.h
+-
+gnuradio/unittests.h
+-
+qa_DoA_BladeRF.h
+/home/haison98/gr-DoA_BladeRF/lib/qa_DoA_BladeRF.h
+iostream
+-
+fstream
+-
+

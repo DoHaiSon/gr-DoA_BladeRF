@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<block>
+  <name>Sample Offset</name>
+  <key>DoA_BladeRF_sample_offset</key>
+  <category>[DoA_BladeRF]</category>
+  <import>import DoA_BladeRF</import>
+  <make>DoA_BladeRF.sample_offset($vector_len, $num_xcorr)</make>
+
+  <param>
+      <name>Vector Length</name>
+      <key>vector_len</key>
+      <value>1</value>
+      <type>int</type>
+  </param>
+  <param>
+      <name>Iterations</name>
+      <key>num_xcorr</key>
+      <value>1</value>
+      <type>int</type>
+  </param>
+  <param>
+      <name>Show Msg Ports</name>
+      <key>showports</key>
+      <value>True</value>
+      <type>enum</type>
+      <hide>part</hide>
+      <option>
+          <name>Yes</name>
+          <key>False</key>
+      </option>
+      <option>
+          <name>No</name>
+          <key>True</key>
+      </option>
+  </param>
+
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+      <name>in0</name>
+      <type>complex</type>
+      <vlen>$vector_len</vlen>
+  </sink>
+  <sink>
+      <name>in1</name>
+      <type>complex</type>
+      <vlen>$vector_len</vlen>
+  </sink>
+  <sink>
+      <name>recalc</name>
+      <type>message</type>
+      <optional>1</optional>
+      <hide>$showports</hide>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>int</type>
+  </source>
+</block>

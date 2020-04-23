@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="Hold__impl_8h" kind="file" language="C++">
+    <compoundname>Hold_impl.h</compoundname>
+    <includes refid="Hold_8h" local="no">DoA_BladeRF/Hold.h</includes>
+    <incdepgraph>
+      <node id="56">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="55">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="53">
+        <label>DoA_BladeRF/Hold.h</label>
+        <link refid="Hold_8h"/>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>DoA_BladeRF/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="55" relation="include">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>Hold_impl.h</label>
+        <link refid="Hold__impl_8h"/>
+        <childnode refid="53" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1DoA__BladeRF_1_1Hold__impl" prot="public">gr::DoA_BladeRF::Hold_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1DoA__BladeRF">gr::DoA_BladeRF</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/haison98/gr-DoA_BladeRF/lib/Hold_impl.h"/>
+  </compounddef>
+</doxygen>

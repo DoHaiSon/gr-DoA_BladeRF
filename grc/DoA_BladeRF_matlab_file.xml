@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<block>
+  <name>MatLab File source</name>
+  <key>DoA_BladeRF_matlab_file</key>
+  <category>[DoA_BladeRF]</category>
+  <import>import DoA_BladeRF</import>
+  <make>DoA_BladeRF.matlab_file($link, $num_in)</make>
+  <callback>open($file)</callback>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>File</name>
+    <key>link</key>
+    <value></value>
+    <type>file_open</type>
+  </param>
+
+  <param>
+    <name>Num Inputs</name>
+    <key>num_in</key>
+    <value>4</value>
+    <type>int</type>
+  </param>
+
+  <source>
+    <name>out</name>
+    <type>complex</type>
+    <nports>$num_in</nports>
+  </source>
+</block>

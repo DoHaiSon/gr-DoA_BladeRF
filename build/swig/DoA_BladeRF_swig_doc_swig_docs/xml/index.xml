@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="classgr_1_1DoA__BladeRF_1_1Delay" kind="class"><name>gr::DoA_BladeRF::Delay</name>
+    <member refid="classgr_1_1DoA__BladeRF_1_1Delay_1ac036a6f43840140c606533ff9e6b2be8" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1DoA__BladeRF_1_1Delay_1ad4f3aa43c386781b4050aafd70db19f3" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1DoA__BladeRF_1_1Delay_1ae91b5556b3235611f92e63dd22f9053a" kind="function"><name>dly</name></member>
+    <member refid="classgr_1_1DoA__BladeRF_1_1Delay_1a4dfd7113a08d63b599d9de6e19c55d97" kind="function"><name>set_dly</name></member>
+  </compound>
+  <compound refid="classgr_1_1DoA__BladeRF_1_1DOA" kind="class"><name>gr::DoA_BladeRF::DOA</name>
+    <member refid="classgr_1_1DoA__BladeRF_1_1DOA_1a2330477eced3e42a30c8f8d150a35473" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1DoA__BladeRF_1_1DOA_1ab45abe21cc8e3e4f60171629729efcfe" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1DoA__BladeRF_1_1Hold" kind="class"><name>gr::DoA_BladeRF::Hold</name>
+    <member refid="classgr_1_1DoA__BladeRF_1_1Hold_1ad48a8d49b8e6191d68db23b42e6773ca" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1DoA__BladeRF_1_1Hold_1a65915fe2832459b02a1667fb42696080" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1DoA__BladeRF_1_1Hold_1a4b789d56e7f995206f3d17ec11b82780" kind="function"><name>set_hold</name></member>
+    <member refid="classgr_1_1DoA__BladeRF_1_1Hold_1a022bf80a2cd6d619aed6fc56a41ada27" kind="function"><name>get_hold</name></member>
+  </compound>
+  <compound refid="classgr_1_1DoA__BladeRF_1_1mess__sink__f" kind="class"><name>gr::DoA_BladeRF::mess_sink_f</name>
+    <member refid="classgr_1_1DoA__BladeRF_1_1mess__sink__f_1a7e0955d51e95d10be0b2aeb1814d4d20" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1DoA__BladeRF_1_1mess__sink__f_1aed7a85c4740676e4ccc0213fe451e49f" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1DoA__BladeRF_1_1multi__exp" kind="class"><name>gr::DoA_BladeRF::multi_exp</name>
+    <member refid="classgr_1_1DoA__BladeRF_1_1multi__exp_1a5532cc12980c9f89427204ba6bc69a39" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1DoA__BladeRF_1_1multi__exp_1af2a173e4f038ec216a67c84afcf3feb9" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1DoA__BladeRF_1_1multi__exp_1abb9d28a14f16e47cda47f71bc233d6f3" kind="function"><name>set_arg</name></member>
+  </compound>
+  <compound refid="classgr_1_1DoA__BladeRF_1_1PCA" kind="class"><name>gr::DoA_BladeRF::PCA</name>
+    <member refid="classgr_1_1DoA__BladeRF_1_1PCA_1a8b48808bf9ffbdac612e82f074036569" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1DoA__BladeRF_1_1PCA_1a6ef1f165e408010ba561fb6ff6a36070" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1DoA__BladeRF_1_1sample__offset" kind="class"><name>gr::DoA_BladeRF::sample_offset</name>
+    <member refid="classgr_1_1DoA__BladeRF_1_1sample__offset_1ad0e42b744b40134965f56644db993513" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1DoA__BladeRF_1_1sample__offset_1a08692a509222034857df90118bc5ccc5" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1DoA__BladeRF_1_1vector__steering" kind="class"><name>gr::DoA_BladeRF::vector_steering</name>
+    <member refid="classgr_1_1DoA__BladeRF_1_1vector__steering_1aacd5bbc7bbd7f06a1977ac9f27c84d07" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1DoA__BladeRF_1_1vector__steering_1a8c42dce5ab84d17d2053677ad8f3a17c" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1DoA__BladeRF" kind="namespace"><name>gr::DoA_BladeRF</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a7ecba6ba38b4a078625d71d868ed62d1" kind="define"><name>DOA_BLADERF_API</name></member>
+  </compound>
+  <compound refid="Delay_8h" kind="file"><name>Delay.h</name>
+  </compound>
+  <compound refid="DOA_8h" kind="file"><name>DOA.h</name>
+  </compound>
+  <compound refid="Hold_8h" kind="file"><name>Hold.h</name>
+  </compound>
+  <compound refid="mess__sink__f_8h" kind="file"><name>mess_sink_f.h</name>
+  </compound>
+  <compound refid="multi__exp_8h" kind="file"><name>multi_exp.h</name>
+  </compound>
+  <compound refid="PCA_8h" kind="file"><name>PCA.h</name>
+  </compound>
+  <compound refid="sample__offset_8h" kind="file"><name>sample_offset.h</name>
+  </compound>
+  <compound refid="vector__steering_8h" kind="file"><name>vector_steering.h</name>
+  </compound>
+  <compound refid="dir_1bd535f10f792a333969a979a52d24f1" kind="dir"><name>DoA_BladeRF</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+</doxygenindex>

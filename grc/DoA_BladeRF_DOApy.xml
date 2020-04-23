@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<block>
+  <name>DOA Python</name>
+  <key>DoA_BladeRF_DOApy</key>
+  <category>[DoA_BladeRF]</category>
+  <import>import DoA_BladeRF</import>
+  <make>DoA_BladeRF.DOApy($num_in, $veclen, $gain, $algorithm, $k)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Num Inputs</name>
+    <key>num_in</key>
+    <value>4</value>
+    <type>float</type>
+  </param>
+
+  <param>
+      <name>Vector Length</name>
+      <key>veclen</key>
+      <value>1</value>
+      <type>int</type>
+  </param>
+
+  <param>
+    <name>Gain (dB)</name>
+    <key>gain</key>
+    <value>30</value>
+    <type>float</type>
+  </param>
+
+  <param>
+    <name>Antenna Spcaing: </name>
+    <key>k</key>
+    <value>0.5</value>
+    <type>float</type>
+  </param>
+
+  <param>
+    <name>Algorithm</name>
+    <key>algorithm</key>
+    <value>True</value>
+    <type>enum</type>
+    <option>
+      <name>MUSIC</name>
+      <key>True</key>
+    </option>
+
+    <option>
+      <name>CAPON</name>
+      <key>False</key>
+    </option>
+
+    <option>
+      <name>Bartlett</name>
+      <key>None</key>
+    </option>
+  </param>
+
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+    <vlen>$veclen</vlen>
+    <nports>$num_in</nports>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>float</type>
+    <vlen>$veclen</vlen>
+  </source> 
+</block>

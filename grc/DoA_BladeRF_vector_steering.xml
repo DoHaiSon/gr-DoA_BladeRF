@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<block>
+  <name>Vector Steering</name>
+  <key>DoA_BladeRF_vector_steering</key>
+  <category>[DoA_BladeRF]</category>
+  <import>import DoA_BladeRF</import>
+  <make>DoA_BladeRF.vector_steering($arg)</make>
+  <callback>set_arg($arg)</callback>
+
+  <param>
+    <name>Angle</name>
+    <key>arg</key>
+    <value>90.0</value>
+    <type>float</type>
+  </param>
+
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+
+  <sink>
+    <name>arg</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<block>
+  <name>DOA</name>
+  <key>DoA_BladeRF_DOA</key>
+  <category>[DoA_BladeRF]</category>
+  <import>import DoA_BladeRF</import>
+  <make>DoA_BladeRF.DOA($vector_size, $spacing, $num_input, $gain)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Vector Length</name>
+    <key>vector_size</key>
+    <value>1</value>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Antennas Spacing</name>
+    <key>spacing</key>
+    <value>0.5</value>
+    <type>float</type>
+  </param>
+
+  <param>
+    <name>Num Inputs</name>
+    <key>num_input</key>
+    <value>2</value>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Gain (dB)</name>
+    <key>gain</key>
+    <value>30</value>
+    <type>int</type>
+  </param>
+
+  <sink>
+    <name>in0</name>
+    <type>complex</type>
+    <vlen>$vector_size</vlen>
+  </sink>
+  <sink>
+      <name>in1</name>
+      <type>complex</type>
+      <vlen>$vector_size</vlen>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out0</name>
+    <type>float</type>
+    <vlen>$vector_size</vlen>
+  </source>
+</block>

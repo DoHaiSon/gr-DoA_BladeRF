@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1DoA__BladeRF_1_1Delay__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::DoA_BladeRF::Delay_impl</compoundname>
+    <basecompoundref refid="classgr_1_1DoA__BladeRF_1_1Delay" prot="public" virt="non-virtual">gr::DoA_BladeRF::Delay</basecompoundref>
+    <includes refid="Delay__impl_8h" local="no">Delay_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1DoA__BladeRF_1_1Delay__impl_1aefa47e19fbd897269e214ca238b4f7ac" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::DoA_BladeRF::Delay_impl::d_samp_rate</definition>
+        <argsstring></argsstring>
+        <name>d_samp_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" line="34" column="1" bodyfile="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1DoA__BladeRF_1_1Delay__impl_1a77f57be86bdb0879885d4882995a3702" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::DoA_BladeRF::Delay_impl::d_delay</definition>
+        <argsstring></argsstring>
+        <name>d_delay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" line="35" column="1" bodyfile="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1DoA__BladeRF_1_1Delay__impl_1a48ecf51cc0d37eb88bc99059062b34c2" prot="private" static="no" mutable="no">
+        <type>std::queue&lt; gr_complex &gt;</type>
+        <definition>std::queue&lt;gr_complex&gt; gr::DoA_BladeRF::Delay_impl::buffer</definition>
+        <argsstring></argsstring>
+        <name>buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" line="36" column="1" bodyfile="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1DoA__BladeRF_1_1Delay__impl_1a61c7c1ad3bbc782d6a4ea4780d6f10fe" prot="private" static="no" mutable="no">
+        <type>std::deque&lt; gr_complex &gt;</type>
+        <definition>std::deque&lt;gr_complex&gt; gr::DoA_BladeRF::Delay_impl::points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" line="37" column="1" bodyfile="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1DoA__BladeRF_1_1Delay__impl_1a5be20b995d67e3796c56488b21cfc3c6" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::DoA_BladeRF::Delay_impl::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" line="38" column="1" bodyfile="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1DoA__BladeRF_1_1Delay__impl_1a7ad2d72c344ce72536739afa7420caa1" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::DoA_BladeRF::Delay_impl::curr_offset</definition>
+        <argsstring></argsstring>
+        <name>curr_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" line="38" column="1" bodyfile="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1DoA__BladeRF_1_1Delay__impl_1a33a6d33080122fee56940d8b43f02e49" prot="private" static="no" mutable="no">
+        <type>gr::thread::mutex</type>
+        <definition>gr::thread::mutex gr::DoA_BladeRF::Delay_impl::d_mutex_delay</definition>
+        <argsstring></argsstring>
+        <name>d_mutex_delay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" line="39" column="1" bodyfile="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1DoA__BladeRF_1_1Delay__impl_1afd0e1cd12883bf64fe1306e341ee20fa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::DoA_BladeRF::Delay_impl::interpolate</definition>
+        <argsstring>(const gr_complex &amp;p0, const gr_complex &amp;p1, const gr_complex &amp;p2, const gr_complex &amp;p3, float mu)</argsstring>
+        <name>interpolate</name>
+        <param>
+          <type>const gr_complex &amp;</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>const gr_complex &amp;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>const gr_complex &amp;</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>const gr_complex &amp;</type>
+          <declname>p3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>mu</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1DoA__BladeRF_1_1Delay__impl_1af411865e5d463b831657aabeb8fe25d3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::DoA_BladeRF::Delay_impl::reset</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>reset</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" line="40" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1DoA__BladeRF_1_1Delay__impl_1ab05cf1e3ca5ef9282c2f0c543095e37f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::DoA_BladeRF::Delay_impl::Delay_impl</definition>
+        <argsstring>(size_t itemsize, int delay)</argsstring>
+        <name>Delay_impl</name>
+        <param>
+          <type>size_t</type>
+          <declname>itemsize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>delay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1DoA__BladeRF_1_1Delay__impl_1a33153734d38d8b8e4d260fd52debb62d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::DoA_BladeRF::Delay_impl::~Delay_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~Delay_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1DoA__BladeRF_1_1Delay__impl_1a3c4d13d145301ee052946af1492b2d8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::DoA_BladeRF::Delay_impl::set_dly</definition>
+        <argsstring>(float new_delay)</argsstring>
+        <name>set_dly</name>
+        <param>
+          <type>float</type>
+          <declname>new_delay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1DoA__BladeRF_1_1Delay__impl_1acb6be985df4313136591a21376d11297" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>float</type>
+        <definition>float gr::DoA_BladeRF::Delay_impl::dly</definition>
+        <argsstring>() const</argsstring>
+        <name>dly</name>
+        <reimplements refid="classgr_1_1DoA__BladeRF_1_1Delay_1ae91b5556b3235611f92e63dd22f9053a">dly</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" line="47" column="1" bodyfile="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" bodystart="47" bodyend="47"/>
+        <references refid="classgr_1_1DoA__BladeRF_1_1Delay__impl_1a0a9ccf328473d6ae7170320e19a9d3e6">forecast</references>
+        <references refid="classgr_1_1DoA__BladeRF_1_1Delay__impl_1a3c1502d05d2c4654fa9bc31809391184">general_work</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1DoA__BladeRF_1_1Delay__impl_1a0a9ccf328473d6ae7170320e19a9d3e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::DoA_BladeRF::Delay_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" line="50" column="1"/>
+        <referencedby refid="classgr_1_1DoA__BladeRF_1_1Delay__impl_1acb6be985df4313136591a21376d11297" compoundref="Delay__impl_8h" startline="47" endline="47">dly</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1DoA__BladeRF_1_1Delay__impl_1a3c1502d05d2c4654fa9bc31809391184" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::DoA_BladeRF::Delay_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" line="52" column="1"/>
+        <referencedby refid="classgr_1_1DoA__BladeRF_1_1Delay__impl_1acb6be985df4313136591a21376d11297" compoundref="Delay__impl_8h" startline="47" endline="47">dly</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>gr::DoA_BladeRF::Delay_impl</label>
+        <link refid="classgr_1_1DoA__BladeRF_1_1Delay__impl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>gr::block</label>
+      </node>
+      <node id="6">
+        <label>gr::DoA_BladeRF::Delay</label>
+        <link refid="classgr_1_1DoA__BladeRF_1_1Delay"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="8">
+        <label>gr::DoA_BladeRF::Delay_impl</label>
+        <link refid="classgr_1_1DoA__BladeRF_1_1Delay__impl"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>gr::block</label>
+      </node>
+      <node id="9">
+        <label>gr::DoA_BladeRF::Delay</label>
+        <link refid="classgr_1_1DoA__BladeRF_1_1Delay"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" line="31" column="1" bodyfile="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h" bodystart="30" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Delay__impl_1a48ecf51cc0d37eb88bc99059062b34c2" prot="private" virt="non-virtual"><scope>gr::DoA_BladeRF::Delay_impl</scope><name>buffer</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Delay__impl_1a7ad2d72c344ce72536739afa7420caa1" prot="private" virt="non-virtual"><scope>gr::DoA_BladeRF::Delay_impl</scope><name>curr_offset</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Delay__impl_1a77f57be86bdb0879885d4882995a3702" prot="private" virt="non-virtual"><scope>gr::DoA_BladeRF::Delay_impl</scope><name>d_delay</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Delay__impl_1a33a6d33080122fee56940d8b43f02e49" prot="private" virt="non-virtual"><scope>gr::DoA_BladeRF::Delay_impl</scope><name>d_mutex_delay</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Delay__impl_1aefa47e19fbd897269e214ca238b4f7ac" prot="private" virt="non-virtual"><scope>gr::DoA_BladeRF::Delay_impl</scope><name>d_samp_rate</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Delay__impl_1ab05cf1e3ca5ef9282c2f0c543095e37f" prot="public" virt="non-virtual"><scope>gr::DoA_BladeRF::Delay_impl</scope><name>Delay_impl</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Delay__impl_1acb6be985df4313136591a21376d11297" prot="public" virt="virtual"><scope>gr::DoA_BladeRF::Delay_impl</scope><name>dly</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Delay__impl_1a0a9ccf328473d6ae7170320e19a9d3e6" prot="public" virt="non-virtual"><scope>gr::DoA_BladeRF::Delay_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Delay__impl_1a3c1502d05d2c4654fa9bc31809391184" prot="public" virt="non-virtual"><scope>gr::DoA_BladeRF::Delay_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Delay__impl_1afd0e1cd12883bf64fe1306e341ee20fa" prot="private" virt="non-virtual"><scope>gr::DoA_BladeRF::Delay_impl</scope><name>interpolate</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Delay_1ad4f3aa43c386781b4050aafd70db19f3" prot="public" virt="non-virtual"><scope>gr::DoA_BladeRF::Delay_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Delay__impl_1a5be20b995d67e3796c56488b21cfc3c6" prot="private" virt="non-virtual"><scope>gr::DoA_BladeRF::Delay_impl</scope><name>offset</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Delay__impl_1a61c7c1ad3bbc782d6a4ea4780d6f10fe" prot="private" virt="non-virtual"><scope>gr::DoA_BladeRF::Delay_impl</scope><name>points</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Delay__impl_1af411865e5d463b831657aabeb8fe25d3" prot="private" virt="non-virtual"><scope>gr::DoA_BladeRF::Delay_impl</scope><name>reset</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Delay__impl_1a3c4d13d145301ee052946af1492b2d8b" prot="public" virt="non-virtual"><scope>gr::DoA_BladeRF::Delay_impl</scope><name>set_dly</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Delay_1a4dfd7113a08d63b599d9de6e19c55d97" prot="public" virt="pure-virtual" ambiguityscope="gr::DoA_BladeRF::Delay::"><scope>gr::DoA_BladeRF::Delay_impl</scope><name>set_dly</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Delay_1ac036a6f43840140c606533ff9e6b2be8" prot="public" virt="non-virtual"><scope>gr::DoA_BladeRF::Delay_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Delay__impl_1a33153734d38d8b8e4d260fd52debb62d" prot="public" virt="non-virtual"><scope>gr::DoA_BladeRF::Delay_impl</scope><name>~Delay_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

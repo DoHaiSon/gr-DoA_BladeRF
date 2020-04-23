@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_1bd535f10f792a333969a979a52d24f1" kind="dir">
+    <compoundname>DoA_BladeRF</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="Delay_8h">Delay.h</innerfile>
+    <innerfile refid="DOA_8h">DOA.h</innerfile>
+    <innerfile refid="Hold_8h">Hold.h</innerfile>
+    <innerfile refid="mess__sink__f_8h">mess_sink_f.h</innerfile>
+    <innerfile refid="multi__exp_8h">multi_exp.h</innerfile>
+    <innerfile refid="PCA_8h">PCA.h</innerfile>
+    <innerfile refid="sample__offset_8h">sample_offset.h</innerfile>
+    <innerfile refid="vector__steering_8h">vector_steering.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/haison98/gr-DoA_BladeRF/include/DoA_BladeRF/"/>
+  </compounddef>
+</doxygen>

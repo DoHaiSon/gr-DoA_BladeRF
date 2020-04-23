@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="Delay__impl_8h" kind="file" language="C++">
+    <compoundname>Delay_impl.h</compoundname>
+    <includes refid="Delay_8h" local="no">DoA_BladeRF/Delay.h</includes>
+    <includes local="no">queue</includes>
+    <incdepgraph>
+      <node id="30">
+        <label>queue</label>
+      </node>
+      <node id="25">
+        <label>Delay_impl.h</label>
+        <link refid="Delay__impl_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="29">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="27">
+        <label>DoA_BladeRF/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>DoA_BladeRF/Delay.h</label>
+        <link refid="Delay_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1DoA__BladeRF_1_1Delay__impl" prot="public">gr::DoA_BladeRF::Delay_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1DoA__BladeRF">gr::DoA_BladeRF</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/haison98/gr-DoA_BladeRF/lib/Delay_impl.h"/>
+  </compounddef>
+</doxygen>

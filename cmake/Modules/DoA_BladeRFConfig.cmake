@@ -1,0 +1,30 @@
+INCLUDE(FindPkgConfig)
+PKG_CHECK_MODULES(PC_DOA_BLADERF DoA_BladeRF)
+
+FIND_PATH(
+    DOA_BLADERF_INCLUDE_DIRS
+    NAMES DoA_BladeRF/api.h
+    HINTS $ENV{DOA_BLADERF_DIR}/include
+        ${PC_DOA_BLADERF_INCLUDEDIR}
+    PATHS ${CMAKE_INSTALL_PREFIX}/include
+          /usr/local/include
+          /usr/include
+)
+
+FIND_LIBRARY(
+    DOA_BLADERF_LIBRARIES
+    NAMES gnuradio-DoA_BladeRF
+    HINTS $ENV{DOA_BLADERF_DIR}/lib
+        ${PC_DOA_BLADERF_LIBDIR}
+    PATHS ${CMAKE_INSTALL_PREFIX}/lib
+          ${CMAKE_INSTALL_PREFIX}/lib64
+          /usr/local/lib
+          /usr/local/lib64
+          /usr/lib
+          /usr/lib64
+)
+
+INCLUDE(FindPackageHandleStandardArgs)
+FIND_PACKAGE_HANDLE_STANDARD_ARGS(DOA_BLADERF DEFAULT_MSG DOA_BLADERF_LIBRARIES DOA_BLADERF_INCLUDE_DIRS)
+MARK_AS_ADVANCED(DOA_BLADERF_LIBRARIES DOA_BLADERF_INCLUDE_DIRS)
+

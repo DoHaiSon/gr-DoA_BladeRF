@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<block>
+  <name>Hold</name>
+  <key>DoA_BladeRF_Hold</key>
+  <category>[DoA_BladeRF]</category>
+  <import>import DoA_BladeRF</import>
+  <make>DoA_BladeRF.Hold($hold)</make>
+  <callback>set_hold($hold)</callback>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+      <name>Hold</name>
+      <key>hold</key>
+      <type>bool</type>
+  </param>
+
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

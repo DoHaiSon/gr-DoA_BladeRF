@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="multi__exp_8h" kind="file" language="C++">
+    <compoundname>multi_exp.h</compoundname>
+    <includes refid="api_8h" local="no">DoA_BladeRF/api.h</includes>
+    <includes local="no">gnuradio/sync_block.h</includes>
+    <includedby refid="multi__exp__impl_8h" local="no">multi_exp_impl.h</includedby>
+    <incdepgraph>
+      <node id="75">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="74">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="73">
+        <label>DoA_BladeRF/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="74" relation="include">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>multi_exp.h</label>
+        <link refid="multi__exp_8h"/>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="77">
+        <label>multi_exp_impl.h</label>
+        <link refid="multi__exp__impl_8h"/>
+      </node>
+      <node id="76">
+        <label>multi_exp.h</label>
+        <link refid="multi__exp_8h"/>
+        <childnode refid="77" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1DoA__BladeRF_1_1multi__exp" prot="public">gr::DoA_BladeRF::multi_exp</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1DoA__BladeRF">gr::DoA_BladeRF</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/haison98/gr-DoA_BladeRF/include/DoA_BladeRF/multi_exp.h"/>
+  </compounddef>
+</doxygen>

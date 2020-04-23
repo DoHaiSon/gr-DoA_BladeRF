@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1DoA__BladeRF_1_1PCA__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::DoA_BladeRF::PCA_impl</compoundname>
+    <basecompoundref refid="classgr_1_1DoA__BladeRF_1_1PCA" prot="public" virt="non-virtual">gr::DoA_BladeRF::PCA</basecompoundref>
+    <includes refid="PCA__impl_8h" local="no">PCA_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1DoA__BladeRF_1_1PCA__impl_1aa439de3476c75e462ae6579d0befd84c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::DoA_BladeRF::PCA_impl::d_vector_size</definition>
+        <argsstring></argsstring>
+        <name>d_vector_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/PCA_impl.h" line="32" column="1" bodyfile="/home/haison98/gr-DoA_BladeRF/lib/PCA_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1DoA__BladeRF_1_1PCA__impl_1a59f8aeac2213129f2dc28a0f5dc890f1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::DoA_BladeRF::PCA_impl::direction</definition>
+        <argsstring>(const gr_complex *in0, const gr_complex *in1)</argsstring>
+        <name>direction</name>
+        <param>
+          <type>const gr_complex *</type>
+          <declname>in0</declname>
+        </param>
+        <param>
+          <type>const gr_complex *</type>
+          <declname>in1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/PCA_impl.h" line="33" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1DoA__BladeRF_1_1PCA__impl_1a8a57621bf7d2023360c9677bfcc3b1bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::DoA_BladeRF::PCA_impl::PCA_impl</definition>
+        <argsstring>(int vector_size)</argsstring>
+        <name>PCA_impl</name>
+        <param>
+          <type>int</type>
+          <declname>vector_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/PCA_impl.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1DoA__BladeRF_1_1PCA__impl_1af275ba062ea63b0f1529d01bd350a9c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::DoA_BladeRF::PCA_impl::~PCA_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~PCA_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/PCA_impl.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1DoA__BladeRF_1_1PCA__impl_1a7bec4117e84d9eb1a4c0d6c5d4991047" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::DoA_BladeRF::PCA_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/PCA_impl.h" line="40" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="60">
+        <label>gr::DoA_BladeRF::PCA_impl</label>
+        <link refid="classgr_1_1DoA__BladeRF_1_1PCA__impl"/>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="61">
+        <label>gr::DoA_BladeRF::PCA</label>
+        <link refid="classgr_1_1DoA__BladeRF_1_1PCA"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="63">
+        <label>gr::DoA_BladeRF::PCA_impl</label>
+        <link refid="classgr_1_1DoA__BladeRF_1_1PCA__impl"/>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="64">
+        <label>gr::DoA_BladeRF::PCA</label>
+        <link refid="classgr_1_1DoA__BladeRF_1_1PCA"/>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/haison98/gr-DoA_BladeRF/lib/PCA_impl.h" line="30" column="1" bodyfile="/home/haison98/gr-DoA_BladeRF/lib/PCA_impl.h" bodystart="29" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classgr_1_1DoA__BladeRF_1_1PCA__impl_1aa439de3476c75e462ae6579d0befd84c" prot="private" virt="non-virtual"><scope>gr::DoA_BladeRF::PCA_impl</scope><name>d_vector_size</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1PCA__impl_1a59f8aeac2213129f2dc28a0f5dc890f1" prot="private" virt="non-virtual"><scope>gr::DoA_BladeRF::PCA_impl</scope><name>direction</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1PCA_1a6ef1f165e408010ba561fb6ff6a36070" prot="public" virt="non-virtual"><scope>gr::DoA_BladeRF::PCA_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1PCA__impl_1a8a57621bf7d2023360c9677bfcc3b1bf" prot="public" virt="non-virtual"><scope>gr::DoA_BladeRF::PCA_impl</scope><name>PCA_impl</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1PCA_1a8b48808bf9ffbdac612e82f074036569" prot="public" virt="non-virtual"><scope>gr::DoA_BladeRF::PCA_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1PCA__impl_1a7bec4117e84d9eb1a4c0d6c5d4991047" prot="public" virt="non-virtual"><scope>gr::DoA_BladeRF::PCA_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1PCA__impl_1af275ba062ea63b0f1529d01bd350a9c2" prot="public" virt="non-virtual"><scope>gr::DoA_BladeRF::PCA_impl</scope><name>~PCA_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

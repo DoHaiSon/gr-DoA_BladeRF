@@ -1,0 +1,7 @@
+/*!
+ * \defgroup block GNU Radio DOA_BLADERF C++ Signal Processing Blocks
+ * \brief All C++ blocks that can be used from the DOA_BLADERF GNU Radio
+ *        module are listed here or in the subcategories below.
+ *
+ */
+
