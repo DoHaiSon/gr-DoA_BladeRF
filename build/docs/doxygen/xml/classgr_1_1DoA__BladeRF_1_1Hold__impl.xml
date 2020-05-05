@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1DoA__BladeRF_1_1Hold__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::DoA_BladeRF::Hold_impl</compoundname>
+    <basecompoundref refid="classgr_1_1DoA__BladeRF_1_1Hold" prot="public" virt="non-virtual">gr::DoA_BladeRF::Hold</basecompoundref>
+    <includes refid="Hold__impl_8h" local="no">Hold_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1DoA__BladeRF_1_1Hold__impl_1a49e4040cbaa656da4986f20f219030fb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::DoA_BladeRF::Hold_impl::d_hold</definition>
+        <argsstring></argsstring>
+        <name>d_hold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/Hold_impl.h" line="32" column="1" bodyfile="/home/haison98/gr-DoA_BladeRF/lib/Hold_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1DoA__BladeRF_1_1Hold__impl_1aee0aff7e4cf32c814ee8b20f3f63c07f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::DoA_BladeRF::Hold_impl::d_value</definition>
+        <argsstring></argsstring>
+        <name>d_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/Hold_impl.h" line="33" column="1" bodyfile="/home/haison98/gr-DoA_BladeRF/lib/Hold_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1DoA__BladeRF_1_1Hold__impl_1a3e6e49da98ab67470905c53b443ad758" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::DoA_BladeRF::Hold_impl::Hold_impl</definition>
+        <argsstring>(bool hold)</argsstring>
+        <name>Hold_impl</name>
+        <param>
+          <type>bool</type>
+          <declname>hold</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/Hold_impl.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1DoA__BladeRF_1_1Hold__impl_1af016c31cd5f527234162f2ff629921e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::DoA_BladeRF::Hold_impl::~Hold_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~Hold_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/Hold_impl.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1DoA__BladeRF_1_1Hold__impl_1a73791f6842b1068ee6e6a7a5f7bafee2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::DoA_BladeRF::Hold_impl::set_hold</definition>
+        <argsstring>(bool new_hold)</argsstring>
+        <name>set_hold</name>
+        <reimplements refid="classgr_1_1DoA__BladeRF_1_1Hold_1a4b789d56e7f995206f3d17ec11b82780">set_hold</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>new_hold</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/Hold_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1DoA__BladeRF_1_1Hold__impl_1a6cd46062fd2cf11318824f89c8edb129" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool gr::DoA_BladeRF::Hold_impl::get_hold</definition>
+        <argsstring>() const</argsstring>
+        <name>get_hold</name>
+        <reimplements refid="classgr_1_1DoA__BladeRF_1_1Hold_1a022bf80a2cd6d619aed6fc56a41ada27">get_hold</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/Hold_impl.h" line="40" column="1" bodyfile="/home/haison98/gr-DoA_BladeRF/lib/Hold_impl.h" bodystart="40" bodyend="40"/>
+        <references refid="classgr_1_1DoA__BladeRF_1_1Hold__impl_1aa3b934ce2bf3db98c00bc2dc1ce8f6f5">work</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1DoA__BladeRF_1_1Hold__impl_1aa3b934ce2bf3db98c00bc2dc1ce8f6f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::DoA_BladeRF::Hold_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/haison98/gr-DoA_BladeRF/lib/Hold_impl.h" line="43" column="1"/>
+        <referencedby refid="classgr_1_1DoA__BladeRF_1_1Hold__impl_1a6cd46062fd2cf11318824f89c8edb129" compoundref="Hold__impl_8h" startline="40" endline="40">get_hold</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="29">
+        <label>sync_block</label>
+      </node>
+      <node id="28">
+        <label>gr::DoA_BladeRF::Hold</label>
+        <link refid="classgr_1_1DoA__BladeRF_1_1Hold"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>gr::DoA_BladeRF::Hold_impl</label>
+        <link refid="classgr_1_1DoA__BladeRF_1_1Hold__impl"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="32">
+        <label>sync_block</label>
+      </node>
+      <node id="31">
+        <label>gr::DoA_BladeRF::Hold</label>
+        <link refid="classgr_1_1DoA__BladeRF_1_1Hold"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>gr::DoA_BladeRF::Hold_impl</label>
+        <link refid="classgr_1_1DoA__BladeRF_1_1Hold__impl"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/haison98/gr-DoA_BladeRF/lib/Hold_impl.h" line="30" column="1" bodyfile="/home/haison98/gr-DoA_BladeRF/lib/Hold_impl.h" bodystart="29" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Hold__impl_1a49e4040cbaa656da4986f20f219030fb" prot="private" virt="non-virtual"><scope>gr::DoA_BladeRF::Hold_impl</scope><name>d_hold</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Hold__impl_1aee0aff7e4cf32c814ee8b20f3f63c07f" prot="private" virt="non-virtual"><scope>gr::DoA_BladeRF::Hold_impl</scope><name>d_value</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Hold__impl_1a6cd46062fd2cf11318824f89c8edb129" prot="public" virt="virtual"><scope>gr::DoA_BladeRF::Hold_impl</scope><name>get_hold</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Hold__impl_1a3e6e49da98ab67470905c53b443ad758" prot="public" virt="non-virtual"><scope>gr::DoA_BladeRF::Hold_impl</scope><name>Hold_impl</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Hold_1a65915fe2832459b02a1667fb42696080" prot="public" virt="non-virtual"><scope>gr::DoA_BladeRF::Hold_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Hold__impl_1a73791f6842b1068ee6e6a7a5f7bafee2" prot="public" virt="virtual"><scope>gr::DoA_BladeRF::Hold_impl</scope><name>set_hold</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Hold_1ad48a8d49b8e6191d68db23b42e6773ca" prot="public" virt="non-virtual"><scope>gr::DoA_BladeRF::Hold_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Hold__impl_1aa3b934ce2bf3db98c00bc2dc1ce8f6f5" prot="public" virt="non-virtual"><scope>gr::DoA_BladeRF::Hold_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1DoA__BladeRF_1_1Hold__impl_1af016c31cd5f527234162f2ff629921e2" prot="public" virt="non-virtual"><scope>gr::DoA_BladeRF::Hold_impl</scope><name>~Hold_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacegr_1_1DoA__BladeRF" kind="namespace" language="C++">
+    <compoundname>gr::DoA_BladeRF</compoundname>
+    <innerclass refid="classgr_1_1DoA__BladeRF_1_1Delay" prot="public">gr::DoA_BladeRF::Delay</innerclass>
+    <innerclass refid="classgr_1_1DoA__BladeRF_1_1DOA" prot="public">gr::DoA_BladeRF::DOA</innerclass>
+    <innerclass refid="classgr_1_1DoA__BladeRF_1_1Hold" prot="public">gr::DoA_BladeRF::Hold</innerclass>
+    <innerclass refid="classgr_1_1DoA__BladeRF_1_1mess__sink__f" prot="public">gr::DoA_BladeRF::mess_sink_f</innerclass>
+    <innerclass refid="classgr_1_1DoA__BladeRF_1_1multi__exp" prot="public">gr::DoA_BladeRF::multi_exp</innerclass>
+    <innerclass refid="classgr_1_1DoA__BladeRF_1_1PCA" prot="public">gr::DoA_BladeRF::PCA</innerclass>
+    <innerclass refid="classgr_1_1DoA__BladeRF_1_1sample__offset" prot="public">gr::DoA_BladeRF::sample_offset</innerclass>
+    <innerclass refid="classgr_1_1DoA__BladeRF_1_1vector__steering" prot="public">gr::DoA_BladeRF::vector_steering</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/haison98/gr-DoA_BladeRF/include/DoA_BladeRF/Delay.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

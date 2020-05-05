@@ -62,7 +62,9 @@ class DOApy(gr.sync_block):
 	      		new_arr[0][(i) * int((new_size / len(P))) + j] = P[i] + ((P[i+1] - P[i]) / (new_size / len(P))) * j
 	    	else:
 	      		new_arr[0][(i) * int((new_size / len(P))) + j] = P[i] + ((P[i] - P[i - 1]) / (new_size / len(P))) * j
-	new_arr[0][int(new_size)] = P[len(P) - 1]
+			last = (i) * int((new_size / len(P))) + j
+	new_arr[0][last + 1] = P[len(P) - 1]
+	new_arr[0][last + 2: self.veclen] = np.min(P)
 
 	out = np.zeros((1, 1, self.veclen), dtype = float)	
 	out[0] = new_arr
@@ -83,6 +85,7 @@ def DOA_MuSIC(U, Nb, M, gain, k):
     eigValue, eigVector = LA.eigh(Ruu,UPLO= 'U')
 
     eigValue = sp.diag(eigValue)
+    print(eigValue)
 
     signals = 1
 
