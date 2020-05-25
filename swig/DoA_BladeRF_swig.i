@@ -16,6 +16,7 @@
 #include "DoA_BladeRF/DOA.h"
 #include "DoA_BladeRF/sample_offset.h"
 #include "DoA_BladeRF/Delay.h"
+#include "DoA_BladeRF/selector.h"
 %}
 
 
@@ -35,3 +36,5 @@ GR_SWIG_BLOCK_MAGIC2(DoA_BladeRF, DOA);
 GR_SWIG_BLOCK_MAGIC2(DoA_BladeRF, sample_offset);
 %include "DoA_BladeRF/Delay.h"
 GR_SWIG_BLOCK_MAGIC2(DoA_BladeRF, Delay);
+%include "DoA_BladeRF/selector.h"
+GR_SWIG_BLOCK_MAGIC2(DoA_BladeRF, selector);

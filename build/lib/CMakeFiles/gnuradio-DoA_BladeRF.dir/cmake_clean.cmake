@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/gnuradio-DoA_BladeRF.dir/mess_sink_f_impl.cc.o"
   "CMakeFiles/gnuradio-DoA_BladeRF.dir/multi_exp_impl.cc.o"
   "CMakeFiles/gnuradio-DoA_BladeRF.dir/sample_offset_impl.cc.o"
+  "CMakeFiles/gnuradio-DoA_BladeRF.dir/selector_impl.cc.o"
   "CMakeFiles/gnuradio-DoA_BladeRF.dir/vector_steering_impl.cc.o"
   "libgnuradio-DoA_BladeRF-1.0.0git.pdb"
   "libgnuradio-DoA_BladeRF-1.0.0git.so"

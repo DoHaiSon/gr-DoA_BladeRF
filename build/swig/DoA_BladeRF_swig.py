@@ -3450,5 +3450,375 @@ Delay_sptr_swigregister(Delay_sptr)
 Delay_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.unique_id())
 Delay = Delay.make;
 
+class selector(object):
+    """Proxy of C++ gr::DoA_BladeRF::selector class."""
+
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined - class is abstract")
+    __repr__ = _swig_repr
+
+    def make(input_port):
+        """make(int input_port) -> selector_sptr"""
+        return _DoA_BladeRF_swig.selector_make(input_port)
+
+    make = staticmethod(make)
+
+    def set_port(self, input_port):
+        """set_port(selector self, int input_port)"""
+        return _DoA_BladeRF_swig.selector_set_port(self, input_port)
+
+    __swig_destroy__ = _DoA_BladeRF_swig.delete_selector
+    __del__ = lambda self: None
+selector_swigregister = _DoA_BladeRF_swig.selector_swigregister
+selector_swigregister(selector)
+
+def selector_make(input_port):
+    """selector_make(int input_port) -> selector_sptr"""
+    return _DoA_BladeRF_swig.selector_make(input_port)
+
+class selector_sptr(object):
+    """Proxy of C++ boost::shared_ptr<(gr::DoA_BladeRF::selector)> class."""
+
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+    __repr__ = _swig_repr
+
+    def __init__(self, *args):
+        """
+        __init__(boost::shared_ptr<(gr::DoA_BladeRF::selector)> self) -> selector_sptr
+        __init__(boost::shared_ptr<(gr::DoA_BladeRF::selector)> self, selector p) -> selector_sptr
+        """
+        this = _DoA_BladeRF_swig.new_selector_sptr(*args)
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+
+    def __deref__(self):
+        """__deref__(selector_sptr self) -> selector"""
+        return _DoA_BladeRF_swig.selector_sptr___deref__(self)
+
+    __swig_destroy__ = _DoA_BladeRF_swig.delete_selector_sptr
+    __del__ = lambda self: None
+
+    def make(self, input_port):
+        """make(selector_sptr self, int input_port) -> selector_sptr"""
+        return _DoA_BladeRF_swig.selector_sptr_make(self, input_port)
+
+
+    def set_port(self, input_port):
+        """set_port(selector_sptr self, int input_port)"""
+        return _DoA_BladeRF_swig.selector_sptr_set_port(self, input_port)
+
+
+    def history(self):
+        """history(selector_sptr self) -> unsigned int"""
+        return _DoA_BladeRF_swig.selector_sptr_history(self)
+
+
+    def declare_sample_delay(self, *args):
+        """
+        declare_sample_delay(selector_sptr self, int which, int delay)
+        declare_sample_delay(selector_sptr self, unsigned int delay)
+        """
+        return _DoA_BladeRF_swig.selector_sptr_declare_sample_delay(self, *args)
+
+
+    def sample_delay(self, which):
+        """sample_delay(selector_sptr self, int which) -> unsigned int"""
+        return _DoA_BladeRF_swig.selector_sptr_sample_delay(self, which)
+
+
+    def output_multiple(self):
+        """output_multiple(selector_sptr self) -> int"""
+        return _DoA_BladeRF_swig.selector_sptr_output_multiple(self)
+
+
+    def relative_rate(self):
+        """relative_rate(selector_sptr self) -> double"""
+        return _DoA_BladeRF_swig.selector_sptr_relative_rate(self)
+
+
+    def start(self):
+        """start(selector_sptr self) -> bool"""
+        return _DoA_BladeRF_swig.selector_sptr_start(self)
+
+
+    def stop(self):
+        """stop(selector_sptr self) -> bool"""
+        return _DoA_BladeRF_swig.selector_sptr_stop(self)
+
+
+    def nitems_read(self, which_input):
+        """nitems_read(selector_sptr self, unsigned int which_input) -> uint64_t"""
+        return _DoA_BladeRF_swig.selector_sptr_nitems_read(self, which_input)
+
+
+    def nitems_written(self, which_output):
+        """nitems_written(selector_sptr self, unsigned int which_output) -> uint64_t"""
+        return _DoA_BladeRF_swig.selector_sptr_nitems_written(self, which_output)
+
+
+    def max_noutput_items(self):
+        """max_noutput_items(selector_sptr self) -> int"""
+        return _DoA_BladeRF_swig.selector_sptr_max_noutput_items(self)
+
+
+    def set_max_noutput_items(self, m):
+        """set_max_noutput_items(selector_sptr self, int m)"""
+        return _DoA_BladeRF_swig.selector_sptr_set_max_noutput_items(self, m)
+
+
+    def unset_max_noutput_items(self):
+        """unset_max_noutput_items(selector_sptr self)"""
+        return _DoA_BladeRF_swig.selector_sptr_unset_max_noutput_items(self)
+
+
+    def is_set_max_noutput_items(self):
+        """is_set_max_noutput_items(selector_sptr self) -> bool"""
+        return _DoA_BladeRF_swig.selector_sptr_is_set_max_noutput_items(self)
+
+
+    def set_min_noutput_items(self, m):
+        """set_min_noutput_items(selector_sptr self, int m)"""
+        return _DoA_BladeRF_swig.selector_sptr_set_min_noutput_items(self, m)
+
+
+    def min_noutput_items(self):
+        """min_noutput_items(selector_sptr self) -> int"""
+        return _DoA_BladeRF_swig.selector_sptr_min_noutput_items(self)
+
+
+    def max_output_buffer(self, i):
+        """max_output_buffer(selector_sptr self, int i) -> long"""
+        return _DoA_BladeRF_swig.selector_sptr_max_output_buffer(self, i)
+
+
+    def set_max_output_buffer(self, *args):
+        """
+        set_max_output_buffer(selector_sptr self, long max_output_buffer)
+        set_max_output_buffer(selector_sptr self, int port, long max_output_buffer)
+        """
+        return _DoA_BladeRF_swig.selector_sptr_set_max_output_buffer(self, *args)
+
+
+    def min_output_buffer(self, i):
+        """min_output_buffer(selector_sptr self, int i) -> long"""
+        return _DoA_BladeRF_swig.selector_sptr_min_output_buffer(self, i)
+
+
+    def set_min_output_buffer(self, *args):
+        """
+        set_min_output_buffer(selector_sptr self, long min_output_buffer)
+        set_min_output_buffer(selector_sptr self, int port, long min_output_buffer)
+        """
+        return _DoA_BladeRF_swig.selector_sptr_set_min_output_buffer(self, *args)
+
+
+    def pc_noutput_items(self):
+        """pc_noutput_items(selector_sptr self) -> float"""
+        return _DoA_BladeRF_swig.selector_sptr_pc_noutput_items(self)
+
+
+    def pc_noutput_items_avg(self):
+        """pc_noutput_items_avg(selector_sptr self) -> float"""
+        return _DoA_BladeRF_swig.selector_sptr_pc_noutput_items_avg(self)
+
+
+    def pc_noutput_items_var(self):
+        """pc_noutput_items_var(selector_sptr self) -> float"""
+        return _DoA_BladeRF_swig.selector_sptr_pc_noutput_items_var(self)
+
+
+    def pc_nproduced(self):
+        """pc_nproduced(selector_sptr self) -> float"""
+        return _DoA_BladeRF_swig.selector_sptr_pc_nproduced(self)
+
+
+    def pc_nproduced_avg(self):
+        """pc_nproduced_avg(selector_sptr self) -> float"""
+        return _DoA_BladeRF_swig.selector_sptr_pc_nproduced_avg(self)
+
+
+    def pc_nproduced_var(self):
+        """pc_nproduced_var(selector_sptr self) -> float"""
+        return _DoA_BladeRF_swig.selector_sptr_pc_nproduced_var(self)
+
+
+    def pc_input_buffers_full(self, *args):
+        """
+        pc_input_buffers_full(selector_sptr self, int which) -> float
+        pc_input_buffers_full(selector_sptr self) -> pmt_vector_float
+        """
+        return _DoA_BladeRF_swig.selector_sptr_pc_input_buffers_full(self, *args)
+
+
+    def pc_input_buffers_full_avg(self, *args):
+        """
+        pc_input_buffers_full_avg(selector_sptr self, int which) -> float
+        pc_input_buffers_full_avg(selector_sptr self) -> pmt_vector_float
+        """
+        return _DoA_BladeRF_swig.selector_sptr_pc_input_buffers_full_avg(self, *args)
+
+
+    def pc_input_buffers_full_var(self, *args):
+        """
+        pc_input_buffers_full_var(selector_sptr self, int which) -> float
+        pc_input_buffers_full_var(selector_sptr self) -> pmt_vector_float
+        """
+        return _DoA_BladeRF_swig.selector_sptr_pc_input_buffers_full_var(self, *args)
+
+
+    def pc_output_buffers_full(self, *args):
+        """
+        pc_output_buffers_full(selector_sptr self, int which) -> float
+        pc_output_buffers_full(selector_sptr self) -> pmt_vector_float
+        """
+        return _DoA_BladeRF_swig.selector_sptr_pc_output_buffers_full(self, *args)
+
+
+    def pc_output_buffers_full_avg(self, *args):
+        """
+        pc_output_buffers_full_avg(selector_sptr self, int which) -> float
+        pc_output_buffers_full_avg(selector_sptr self) -> pmt_vector_float
+        """
+        return _DoA_BladeRF_swig.selector_sptr_pc_output_buffers_full_avg(self, *args)
+
+
+    def pc_output_buffers_full_var(self, *args):
+        """
+        pc_output_buffers_full_var(selector_sptr self, int which) -> float
+        pc_output_buffers_full_var(selector_sptr self) -> pmt_vector_float
+        """
+        return _DoA_BladeRF_swig.selector_sptr_pc_output_buffers_full_var(self, *args)
+
+
+    def pc_work_time(self):
+        """pc_work_time(selector_sptr self) -> float"""
+        return _DoA_BladeRF_swig.selector_sptr_pc_work_time(self)
+
+
+    def pc_work_time_avg(self):
+        """pc_work_time_avg(selector_sptr self) -> float"""
+        return _DoA_BladeRF_swig.selector_sptr_pc_work_time_avg(self)
+
+
+    def pc_work_time_var(self):
+        """pc_work_time_var(selector_sptr self) -> float"""
+        return _DoA_BladeRF_swig.selector_sptr_pc_work_time_var(self)
+
+
+    def pc_work_time_total(self):
+        """pc_work_time_total(selector_sptr self) -> float"""
+        return _DoA_BladeRF_swig.selector_sptr_pc_work_time_total(self)
+
+
+    def pc_throughput_avg(self):
+        """pc_throughput_avg(selector_sptr self) -> float"""
+        return _DoA_BladeRF_swig.selector_sptr_pc_throughput_avg(self)
+
+
+    def set_processor_affinity(self, mask):
+        """set_processor_affinity(selector_sptr self, std::vector< int,std::allocator< int > > const & mask)"""
+        return _DoA_BladeRF_swig.selector_sptr_set_processor_affinity(self, mask)
+
+
+    def unset_processor_affinity(self):
+        """unset_processor_affinity(selector_sptr self)"""
+        return _DoA_BladeRF_swig.selector_sptr_unset_processor_affinity(self)
+
+
+    def processor_affinity(self):
+        """processor_affinity(selector_sptr self) -> std::vector< int,std::allocator< int > >"""
+        return _DoA_BladeRF_swig.selector_sptr_processor_affinity(self)
+
+
+    def active_thread_priority(self):
+        """active_thread_priority(selector_sptr self) -> int"""
+        return _DoA_BladeRF_swig.selector_sptr_active_thread_priority(self)
+
+
+    def thread_priority(self):
+        """thread_priority(selector_sptr self) -> int"""
+        return _DoA_BladeRF_swig.selector_sptr_thread_priority(self)
+
+
+    def set_thread_priority(self, priority):
+        """set_thread_priority(selector_sptr self, int priority) -> int"""
+        return _DoA_BladeRF_swig.selector_sptr_set_thread_priority(self, priority)
+
+
+    def name(self):
+        """name(selector_sptr self) -> std::string"""
+        return _DoA_BladeRF_swig.selector_sptr_name(self)
+
+
+    def symbol_name(self):
+        """symbol_name(selector_sptr self) -> std::string"""
+        return _DoA_BladeRF_swig.selector_sptr_symbol_name(self)
+
+
+    def input_signature(self):
+        """input_signature(selector_sptr self) -> io_signature_sptr"""
+        return _DoA_BladeRF_swig.selector_sptr_input_signature(self)
+
+
+    def output_signature(self):
+        """output_signature(selector_sptr self) -> io_signature_sptr"""
+        return _DoA_BladeRF_swig.selector_sptr_output_signature(self)
+
+
+    def unique_id(self):
+        """unique_id(selector_sptr self) -> long"""
+        return _DoA_BladeRF_swig.selector_sptr_unique_id(self)
+
+
+    def to_basic_block(self):
+        """to_basic_block(selector_sptr self) -> basic_block_sptr"""
+        return _DoA_BladeRF_swig.selector_sptr_to_basic_block(self)
+
+
+    def check_topology(self, ninputs, noutputs):
+        """check_topology(selector_sptr self, int ninputs, int noutputs) -> bool"""
+        return _DoA_BladeRF_swig.selector_sptr_check_topology(self, ninputs, noutputs)
+
+
+    def alias(self):
+        """alias(selector_sptr self) -> std::string"""
+        return _DoA_BladeRF_swig.selector_sptr_alias(self)
+
+
+    def set_block_alias(self, name):
+        """set_block_alias(selector_sptr self, std::string name)"""
+        return _DoA_BladeRF_swig.selector_sptr_set_block_alias(self, name)
+
+
+    def _post(self, which_port, msg):
+        """_post(selector_sptr self, swig_int_ptr which_port, swig_int_ptr msg)"""
+        return _DoA_BladeRF_swig.selector_sptr__post(self, which_port, msg)
+
+
+    def message_ports_in(self):
+        """message_ports_in(selector_sptr self) -> swig_int_ptr"""
+        return _DoA_BladeRF_swig.selector_sptr_message_ports_in(self)
+
+
+    def message_ports_out(self):
+        """message_ports_out(selector_sptr self) -> swig_int_ptr"""
+        return _DoA_BladeRF_swig.selector_sptr_message_ports_out(self)
+
+
+    def message_subscribers(self, which_port):
+        """message_subscribers(selector_sptr self, swig_int_ptr which_port) -> swig_int_ptr"""
+        return _DoA_BladeRF_swig.selector_sptr_message_subscribers(self, which_port)
+
+selector_sptr_swigregister = _DoA_BladeRF_swig.selector_sptr_swigregister
+selector_sptr_swigregister(selector_sptr)
+
+
+selector_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.unique_id())
+selector = selector.make;
+
 
 

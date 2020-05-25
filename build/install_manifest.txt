@@ -8,6 +8,7 @@
 /usr/local/include/DoA_BladeRF/DOA.h
 /usr/local/include/DoA_BladeRF/sample_offset.h
 /usr/local/include/DoA_BladeRF/Delay.h
+/usr/local/include/DoA_BladeRF/selector.h
 /usr/local/lib/libgnuradio-DoA_BladeRF-1.0.0git.so.0.0.0
 /usr/local/lib/libgnuradio-DoA_BladeRF-1.0.0git.so
 /usr/local/lib/libgnuradio-DoA_BladeRF.so
@@ -37,6 +38,7 @@
 /usr/local/share/gnuradio/grc/blocks/DoA_BladeRF_DOA.xml
 /usr/local/share/gnuradio/grc/blocks/DoA_BladeRF_sample_offset.xml
 /usr/local/share/gnuradio/grc/blocks/DoA_BladeRF_Delay.xml
+/usr/local/share/gnuradio/grc/blocks/DoA_BladeRF_selector.xml
 /usr/local/share/doc/gr-DoA_BladeRF/xml/namespacestd.xml
 /usr/local/share/doc/gr-DoA_BladeRF/xml/DOA__impl_8h.xml
 /usr/local/share/doc/gr-DoA_BladeRF/xml/dir_97aefd0d527b934f1d99a682da8fe6a9.xml

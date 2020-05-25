@@ -27,5 +27,6 @@ install(FILES
     DoA_BladeRF_vector_steering.xml
     DoA_BladeRF_DOA.xml
     DoA_BladeRF_sample_offset.xml
-    DoA_BladeRF_Delay.xml DESTINATION share/gnuradio/grc/blocks
+    DoA_BladeRF_Delay.xml
+    DoA_BladeRF_selector.xml DESTINATION share/gnuradio/grc/blocks
 )

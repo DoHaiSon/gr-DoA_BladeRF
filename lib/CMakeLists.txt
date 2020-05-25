@@ -34,6 +34,7 @@ list(APPEND DoA_BladeRF_sources
     DOA_impl.cc
     sample_offset_impl.cc
     Delay_impl.cc
+    selector_impl.cc
 )
 
 set(DoA_BladeRF_sources "${DoA_BladeRF_sources}" PARENT_SCOPE)

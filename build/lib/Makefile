@@ -433,6 +433,33 @@ sample_offset_impl.cc.s:
 	cd /home/haison98/gr-DoA_BladeRF/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/gnuradio-DoA_BladeRF.dir/build.make lib/CMakeFiles/gnuradio-DoA_BladeRF.dir/sample_offset_impl.cc.s
 .PHONY : sample_offset_impl.cc.s
 
+selector_impl.o: selector_impl.cc.o
+
+.PHONY : selector_impl.o
+
+# target to build an object file
+selector_impl.cc.o:
+	cd /home/haison98/gr-DoA_BladeRF/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/gnuradio-DoA_BladeRF.dir/build.make lib/CMakeFiles/gnuradio-DoA_BladeRF.dir/selector_impl.cc.o
+.PHONY : selector_impl.cc.o
+
+selector_impl.i: selector_impl.cc.i
+
+.PHONY : selector_impl.i
+
+# target to preprocess a source file
+selector_impl.cc.i:
+	cd /home/haison98/gr-DoA_BladeRF/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/gnuradio-DoA_BladeRF.dir/build.make lib/CMakeFiles/gnuradio-DoA_BladeRF.dir/selector_impl.cc.i
+.PHONY : selector_impl.cc.i
+
+selector_impl.s: selector_impl.cc.s
+
+.PHONY : selector_impl.s
+
+# target to generate assembly for a file
+selector_impl.cc.s:
+	cd /home/haison98/gr-DoA_BladeRF/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/gnuradio-DoA_BladeRF.dir/build.make lib/CMakeFiles/gnuradio-DoA_BladeRF.dir/selector_impl.cc.s
+.PHONY : selector_impl.cc.s
+
 test_DoA_BladeRF.o: test_DoA_BladeRF.cc.o
 
 .PHONY : test_DoA_BladeRF.o
@@ -526,6 +553,9 @@ help:
 	@echo "... sample_offset_impl.o"
 	@echo "... sample_offset_impl.i"
 	@echo "... sample_offset_impl.s"
+	@echo "... selector_impl.o"
+	@echo "... selector_impl.i"
+	@echo "... selector_impl.s"
 	@echo "... test_DoA_BladeRF.o"
 	@echo "... test_DoA_BladeRF.i"
 	@echo "... test_DoA_BladeRF.s"

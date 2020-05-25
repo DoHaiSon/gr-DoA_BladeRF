@@ -36,6 +36,11 @@ lib/CMakeFiles/gnuradio-DoA_BladeRF.dir/sample_offset_impl.cc.o: ../include/DoA_
 lib/CMakeFiles/gnuradio-DoA_BladeRF.dir/sample_offset_impl.cc.o: ../lib/sample_offset_impl.cc
 lib/CMakeFiles/gnuradio-DoA_BladeRF.dir/sample_offset_impl.cc.o: ../lib/sample_offset_impl.h
 
+lib/CMakeFiles/gnuradio-DoA_BladeRF.dir/selector_impl.cc.o: ../include/DoA_BladeRF/api.h
+lib/CMakeFiles/gnuradio-DoA_BladeRF.dir/selector_impl.cc.o: ../include/DoA_BladeRF/selector.h
+lib/CMakeFiles/gnuradio-DoA_BladeRF.dir/selector_impl.cc.o: ../lib/selector_impl.cc
+lib/CMakeFiles/gnuradio-DoA_BladeRF.dir/selector_impl.cc.o: ../lib/selector_impl.h
+
 lib/CMakeFiles/gnuradio-DoA_BladeRF.dir/vector_steering_impl.cc.o: ../include/DoA_BladeRF/api.h
 lib/CMakeFiles/gnuradio-DoA_BladeRF.dir/vector_steering_impl.cc.o: ../include/DoA_BladeRF/vector_steering.h
 lib/CMakeFiles/gnuradio-DoA_BladeRF.dir/vector_steering_impl.cc.o: ../lib/vector_steering_impl.cc

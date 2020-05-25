@@ -85,7 +85,7 @@ def DOA_MuSIC(U, Nb, M, gain, k):
     eigValue, eigVector = LA.eigh(Ruu,UPLO= 'U')
 
     eigValue = sp.diag(eigValue)
-    print(eigValue)
+    #print(eigValue)
 
     signals = 1
 
@@ -94,13 +94,14 @@ def DOA_MuSIC(U, Nb, M, gain, k):
 
     # Khong gian con nhieu
     eigVectorNoise = eigVector[:, 0: M -signals].copy()
+    #print(eigVectorNoise)
 
     # Pho khong gian cua tin hieu
     A0_tmp = np.zeros((D, M), dtype = complex)
     P = np.zeros((181))
     for theta in range (0, 181):
         for reci in range (0, M):
-            A0_tmp[D-1][reci] = pow(10, gain/10) * pow(math.e, complex(0, 2 * math.pi * k * reci * math.cos((theta)*math.pi/180)))
+            A0_tmp[D-1][reci] = pow(10, gain/10) * pow(math.e, complex(0, 2 * math.pi * k * (reci -0.5) * math.cos((theta)*math.pi/180)))
         A0 = A0_tmp.transpose()
 
         tmp = (np.dot(A0.conj().T, A0)) / (np.dot(np.dot(A0.conj().T,eigVectorNoise), np.dot(eigVectorNoise.conj().T, A0)))
@@ -135,7 +136,7 @@ def DOA_CAPON(U, Nb, M, gain, k):
 		P[theta] = np.log10(np.float(tmp.real))
 	else:
 		P[theta] = 0.0
-    return P + 5
+    return P
 
 def DOA_Bartlett(U, Nb, M, gain, k):
 
@@ -155,4 +156,4 @@ def DOA_Bartlett(U, Nb, M, gain, k):
     	A0 = A0_tmp.transpose()
 	tmp = np.dot(np.dot(A0.conj().T, Ruu), A0) / np.dot(A0.conj().T, A0)
 	P[theta] = np.log10(np.float(np.real(tmp)))
-    return P + 5
+    return P

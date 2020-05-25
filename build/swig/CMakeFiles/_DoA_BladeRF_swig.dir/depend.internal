@@ -10,6 +10,7 @@ swig/CMakeFiles/_DoA_BladeRF_swig.dir/DoA_BladeRF_swigPYTHON_wrap.cxx.o
  ../include/DoA_BladeRF/mess_sink_f.h
  ../include/DoA_BladeRF/multi_exp.h
  ../include/DoA_BladeRF/sample_offset.h
+ ../include/DoA_BladeRF/selector.h
  ../include/DoA_BladeRF/vector_steering.h
  /home/haison98/gr-DoA_BladeRF/build/swig/DoA_BladeRF_swigPYTHON_wrap.cxx
  /usr/include/gnuradio/swig/gnuradio_swig_bug_workaround.h

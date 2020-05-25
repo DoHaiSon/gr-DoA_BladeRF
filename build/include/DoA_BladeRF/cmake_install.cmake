@@ -48,6 +48,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/haison98/gr-DoA_BladeRF/include/DoA_BladeRF/DOA.h"
     "/home/haison98/gr-DoA_BladeRF/include/DoA_BladeRF/sample_offset.h"
     "/home/haison98/gr-DoA_BladeRF/include/DoA_BladeRF/Delay.h"
+    "/home/haison98/gr-DoA_BladeRF/include/DoA_BladeRF/selector.h"
     )
 endif()
 

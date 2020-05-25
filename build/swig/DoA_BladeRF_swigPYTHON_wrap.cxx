@@ -3015,55 +3015,57 @@ SWIG_Python_NonDynamicSetAttr(PyObject *obj, PyObject *name, PyObject *value) {
 #define SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__mess_sink_f_t swig_types[6]
 #define SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__multi_exp_t swig_types[7]
 #define SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__sample_offset_t swig_types[8]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__vector_steering_t swig_types[9]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__basic_block_t swig_types[10]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__block_detail_t swig_types[11]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__block_t swig_types[12]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__buffer_reader_t swig_types[13]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__buffer_t swig_types[14]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__flat_flowgraph_t swig_types[15]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__flowgraph_t swig_types[16]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__hier_block2_t swig_types[17]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t swig_types[18]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__top_block_t swig_types[19]
-#define SWIGTYPE_p_char swig_types[20]
-#define SWIGTYPE_p_const_reference swig_types[21]
-#define SWIGTYPE_p_difference_type swig_types[22]
-#define SWIGTYPE_p_gr__DoA_BladeRF__DOA swig_types[23]
-#define SWIGTYPE_p_gr__DoA_BladeRF__Delay swig_types[24]
-#define SWIGTYPE_p_gr__DoA_BladeRF__Hold swig_types[25]
-#define SWIGTYPE_p_gr__DoA_BladeRF__PCA swig_types[26]
-#define SWIGTYPE_p_gr__DoA_BladeRF__mess_sink_f swig_types[27]
-#define SWIGTYPE_p_gr__DoA_BladeRF__multi_exp swig_types[28]
-#define SWIGTYPE_p_gr__DoA_BladeRF__sample_offset swig_types[29]
-#define SWIGTYPE_p_gr__DoA_BladeRF__vector_steering swig_types[30]
-#define SWIGTYPE_p_gr__basic_block swig_types[31]
-#define SWIGTYPE_p_gr__block swig_types[32]
-#define SWIGTYPE_p_gr__block_gateway swig_types[33]
-#define SWIGTYPE_p_gr__endianness_t swig_types[34]
-#define SWIGTYPE_p_gr__hier_block2 swig_types[35]
-#define SWIGTYPE_p_gr__rt_status_t swig_types[36]
-#define SWIGTYPE_p_gr__sync_block swig_types[37]
-#define SWIGTYPE_p_gr__sync_decimator swig_types[38]
-#define SWIGTYPE_p_gr__sync_interpolator swig_types[39]
-#define SWIGTYPE_p_gr__tagged_stream_block swig_types[40]
-#define SWIGTYPE_p_gr__top_block swig_types[41]
-#define SWIGTYPE_p_int swig_types[42]
-#define SWIGTYPE_p_long_long swig_types[43]
-#define SWIGTYPE_p_reference swig_types[44]
-#define SWIGTYPE_p_short swig_types[45]
-#define SWIGTYPE_p_signed_char swig_types[46]
-#define SWIGTYPE_p_size_type swig_types[47]
-#define SWIGTYPE_p_sptr swig_types[48]
-#define SWIGTYPE_p_std__complexT_double_t swig_types[49]
-#define SWIGTYPE_p_std__complexT_float_t swig_types[50]
-#define SWIGTYPE_p_unsigned_char swig_types[51]
-#define SWIGTYPE_p_unsigned_int swig_types[52]
-#define SWIGTYPE_p_unsigned_long_long swig_types[53]
-#define SWIGTYPE_p_unsigned_short swig_types[54]
-#define SWIGTYPE_p_value_type swig_types[55]
-static swig_type_info *swig_types[57];
-static swig_module_info swig_module = {swig_types, 56, 0, 0, 0, 0};
+#define SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t swig_types[9]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__vector_steering_t swig_types[10]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__basic_block_t swig_types[11]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__block_detail_t swig_types[12]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__block_t swig_types[13]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__buffer_reader_t swig_types[14]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__buffer_t swig_types[15]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__flat_flowgraph_t swig_types[16]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__flowgraph_t swig_types[17]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__hier_block2_t swig_types[18]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t swig_types[19]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__top_block_t swig_types[20]
+#define SWIGTYPE_p_char swig_types[21]
+#define SWIGTYPE_p_const_reference swig_types[22]
+#define SWIGTYPE_p_difference_type swig_types[23]
+#define SWIGTYPE_p_gr__DoA_BladeRF__DOA swig_types[24]
+#define SWIGTYPE_p_gr__DoA_BladeRF__Delay swig_types[25]
+#define SWIGTYPE_p_gr__DoA_BladeRF__Hold swig_types[26]
+#define SWIGTYPE_p_gr__DoA_BladeRF__PCA swig_types[27]
+#define SWIGTYPE_p_gr__DoA_BladeRF__mess_sink_f swig_types[28]
+#define SWIGTYPE_p_gr__DoA_BladeRF__multi_exp swig_types[29]
+#define SWIGTYPE_p_gr__DoA_BladeRF__sample_offset swig_types[30]
+#define SWIGTYPE_p_gr__DoA_BladeRF__selector swig_types[31]
+#define SWIGTYPE_p_gr__DoA_BladeRF__vector_steering swig_types[32]
+#define SWIGTYPE_p_gr__basic_block swig_types[33]
+#define SWIGTYPE_p_gr__block swig_types[34]
+#define SWIGTYPE_p_gr__block_gateway swig_types[35]
+#define SWIGTYPE_p_gr__endianness_t swig_types[36]
+#define SWIGTYPE_p_gr__hier_block2 swig_types[37]
+#define SWIGTYPE_p_gr__rt_status_t swig_types[38]
+#define SWIGTYPE_p_gr__sync_block swig_types[39]
+#define SWIGTYPE_p_gr__sync_decimator swig_types[40]
+#define SWIGTYPE_p_gr__sync_interpolator swig_types[41]
+#define SWIGTYPE_p_gr__tagged_stream_block swig_types[42]
+#define SWIGTYPE_p_gr__top_block swig_types[43]
+#define SWIGTYPE_p_int swig_types[44]
+#define SWIGTYPE_p_long_long swig_types[45]
+#define SWIGTYPE_p_reference swig_types[46]
+#define SWIGTYPE_p_short swig_types[47]
+#define SWIGTYPE_p_signed_char swig_types[48]
+#define SWIGTYPE_p_size_type swig_types[49]
+#define SWIGTYPE_p_sptr swig_types[50]
+#define SWIGTYPE_p_std__complexT_double_t swig_types[51]
+#define SWIGTYPE_p_std__complexT_float_t swig_types[52]
+#define SWIGTYPE_p_unsigned_char swig_types[53]
+#define SWIGTYPE_p_unsigned_int swig_types[54]
+#define SWIGTYPE_p_unsigned_long_long swig_types[55]
+#define SWIGTYPE_p_unsigned_short swig_types[56]
+#define SWIGTYPE_p_value_type swig_types[57]
+static swig_type_info *swig_types[59];
+static swig_module_info swig_module = {swig_types, 58, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -4409,6 +4411,7 @@ SWIG_From_long_SS_long  (long long value)
 #include "DoA_BladeRF/DOA.h"
 #include "DoA_BladeRF/sample_offset.h"
 #include "DoA_BladeRF/Delay.h"
+#include "DoA_BladeRF/selector.h"
 
 
 SWIGINTERNINLINE PyObject*
@@ -31099,6 +31102,3268 @@ SWIGINTERN PyObject *Delay_sptr_swigregister(PyObject *SWIGUNUSEDPARM(self), PyO
   return SWIG_Py_Void();
 }
 
+SWIGINTERN PyObject *_wrap_selector_make(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  int arg1 ;
+  int val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  char *  kwnames[] = {
+    (char *) "input_port", NULL 
+  };
+  gr::DoA_BladeRF::selector::sptr result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"O:selector_make",kwnames,&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_int(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "selector_make" "', argument " "1"" of type '" "int""'");
+  } 
+  arg1 = static_cast< int >(val1);
+  {
+    try {
+      result = gr::DoA_BladeRF::selector::make(arg1);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::DoA_BladeRF::selector::sptr(static_cast< const gr::DoA_BladeRF::selector::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_set_port(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  gr::DoA_BladeRF::selector *arg1 = (gr::DoA_BladeRF::selector *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "input_port", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:selector_set_port",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__DoA_BladeRF__selector, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_set_port" "', argument " "1"" of type '" "gr::DoA_BladeRF::selector *""'"); 
+  }
+  arg1 = reinterpret_cast< gr::DoA_BladeRF::selector * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "selector_set_port" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (arg1)->set_port(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_selector(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::DoA_BladeRF::selector *arg1 = (gr::DoA_BladeRF::selector *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_selector",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__DoA_BladeRF__selector, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_selector" "', argument " "1"" of type '" "gr::DoA_BladeRF::selector *""'"); 
+  }
+  arg1 = reinterpret_cast< gr::DoA_BladeRF::selector * >(argp1);
+  {
+    try {
+      delete arg1;
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *selector_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char *)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_gr__DoA_BladeRF__selector, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_new_selector_sptr__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_selector_sptr",0,0)) SWIG_fail;
+  {
+    try {
+      result = (boost::shared_ptr< gr::DoA_BladeRF::selector > *)new boost::shared_ptr< gr::DoA_BladeRF::selector >();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_selector_sptr__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::DoA_BladeRF::selector *arg1 = (gr::DoA_BladeRF::selector *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_selector_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__DoA_BladeRF__selector, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_selector_sptr" "', argument " "1"" of type '" "gr::DoA_BladeRF::selector *""'"); 
+  }
+  arg1 = reinterpret_cast< gr::DoA_BladeRF::selector * >(argp1);
+  {
+    try {
+      result = (boost::shared_ptr< gr::DoA_BladeRF::selector > *)new boost::shared_ptr< gr::DoA_BladeRF::selector >(arg1);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_selector_sptr(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[2] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 1) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 0) {
+    return _wrap_new_selector_sptr__SWIG_0(self, args);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_gr__DoA_BladeRF__selector, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_selector_sptr__SWIG_1(self, args);
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'new_selector_sptr'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    boost::shared_ptr< gr::DoA_BladeRF::selector >::shared_ptr()\n"
+    "    boost::shared_ptr< gr::DoA_BladeRF::selector >::shared_ptr(gr::DoA_BladeRF::selector *)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr___deref__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::DoA_BladeRF::selector *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr___deref__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr___deref__" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (gr::DoA_BladeRF::selector *)(arg1)->operator ->();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_gr__DoA_BladeRF__selector, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_selector_sptr(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_selector_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_selector_sptr" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      delete arg1;
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_make(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "input_port", NULL 
+  };
+  gr::DoA_BladeRF::selector::sptr result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:selector_sptr_make",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_make" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "selector_sptr_make" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (*arg1)->make(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::DoA_BladeRF::selector::sptr(static_cast< const gr::DoA_BladeRF::selector::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_set_port(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "input_port", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:selector_sptr_set_port",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_set_port" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "selector_sptr_set_port" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_port(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_history(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  unsigned int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_history",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_history" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (unsigned int)(*arg1)->history();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_declare_sample_delay__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_declare_sample_delay",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_declare_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "selector_sptr_declare_sample_delay" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "selector_sptr_declare_sample_delay" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    try {
+      (*arg1)->declare_sample_delay(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_declare_sample_delay__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_declare_sample_delay",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_declare_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "selector_sptr_declare_sample_delay" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      (*arg1)->declare_sample_delay(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_declare_sample_delay(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_unsigned_SS_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_selector_sptr_declare_sample_delay__SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_selector_sptr_declare_sample_delay__SWIG_0(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'selector_sptr_declare_sample_delay'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::declare_sample_delay(int,int)\n"
+    "    gr::block::declare_sample_delay(unsigned int)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_sample_delay(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which", NULL 
+  };
+  unsigned int result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:selector_sptr_sample_delay",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "selector_sptr_sample_delay" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (unsigned int)(*arg1)->sample_delay(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_output_multiple(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_output_multiple",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_output_multiple" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->output_multiple();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_relative_rate(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_relative_rate",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_relative_rate" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (double)(*arg1)->relative_rate();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_start(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_start",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_start" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->start();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_stop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_stop",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_stop" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->stop();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_nitems_read(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_input", NULL 
+  };
+  uint64_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:selector_sptr_nitems_read",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_nitems_read" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "selector_sptr_nitems_read" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      result = (uint64_t)(*arg1)->nitems_read(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_nitems_written(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_output", NULL 
+  };
+  uint64_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:selector_sptr_nitems_written",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_nitems_written" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "selector_sptr_nitems_written" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      result = (uint64_t)(*arg1)->nitems_written(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "m", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:selector_sptr_set_max_noutput_items",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "selector_sptr_set_max_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_max_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_unset_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_unset_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_unset_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_is_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_is_set_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_is_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->is_set_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_set_min_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "m", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:selector_sptr_set_min_noutput_items",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_set_min_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "selector_sptr_set_min_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_min_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_min_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_min_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_min_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->min_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_max_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "i", NULL 
+  };
+  long result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:selector_sptr_max_output_buffer",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "selector_sptr_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_set_max_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_set_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "selector_sptr_set_max_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_set_max_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_set_max_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "selector_sptr_set_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "selector_sptr_set_max_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_set_max_output_buffer(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_selector_sptr_set_max_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_selector_sptr_set_max_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'selector_sptr_set_max_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::set_max_output_buffer(long)\n"
+    "    gr::block::set_max_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_min_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "i", NULL 
+  };
+  long result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:selector_sptr_min_output_buffer",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "selector_sptr_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_set_min_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_set_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "selector_sptr_set_min_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_set_min_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_set_min_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "selector_sptr_set_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "selector_sptr_set_min_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_set_min_output_buffer(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_selector_sptr_set_min_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_selector_sptr_set_min_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'selector_sptr_set_min_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::set_min_output_buffer(long)\n"
+    "    gr::block::set_min_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_pc_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_pc_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_noutput_items_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_pc_noutput_items_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_pc_noutput_items_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_noutput_items_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_pc_noutput_items_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_pc_noutput_items_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_nproduced(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_pc_nproduced",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_pc_nproduced" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_nproduced_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_pc_nproduced_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_pc_nproduced_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_nproduced_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_pc_nproduced_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_pc_nproduced_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_input_buffers_full__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_pc_input_buffers_full",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_pc_input_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "selector_sptr_pc_input_buffers_full" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_input_buffers_full__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_pc_input_buffers_full",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_pc_input_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_input_buffers_full(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_selector_sptr_pc_input_buffers_full__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_selector_sptr_pc_input_buffers_full__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'selector_sptr_pc_input_buffers_full'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full(int)\n"
+    "    gr::block::pc_input_buffers_full()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_input_buffers_full_avg__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_pc_input_buffers_full_avg",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_pc_input_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "selector_sptr_pc_input_buffers_full_avg" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full_avg(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_input_buffers_full_avg__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_pc_input_buffers_full_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_pc_input_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_input_buffers_full_avg(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_selector_sptr_pc_input_buffers_full_avg__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_selector_sptr_pc_input_buffers_full_avg__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'selector_sptr_pc_input_buffers_full_avg'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full_avg(int)\n"
+    "    gr::block::pc_input_buffers_full_avg()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_input_buffers_full_var__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_pc_input_buffers_full_var",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_pc_input_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "selector_sptr_pc_input_buffers_full_var" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full_var(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_input_buffers_full_var__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_pc_input_buffers_full_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_pc_input_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_input_buffers_full_var(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_selector_sptr_pc_input_buffers_full_var__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_selector_sptr_pc_input_buffers_full_var__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'selector_sptr_pc_input_buffers_full_var'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full_var(int)\n"
+    "    gr::block::pc_input_buffers_full_var()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_output_buffers_full__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_pc_output_buffers_full",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_pc_output_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "selector_sptr_pc_output_buffers_full" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_output_buffers_full__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_pc_output_buffers_full",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_pc_output_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_output_buffers_full(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_selector_sptr_pc_output_buffers_full__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_selector_sptr_pc_output_buffers_full__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'selector_sptr_pc_output_buffers_full'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full(int)\n"
+    "    gr::block::pc_output_buffers_full()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_output_buffers_full_avg__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_pc_output_buffers_full_avg",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_pc_output_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "selector_sptr_pc_output_buffers_full_avg" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full_avg(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_output_buffers_full_avg__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_pc_output_buffers_full_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_pc_output_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_output_buffers_full_avg(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_selector_sptr_pc_output_buffers_full_avg__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_selector_sptr_pc_output_buffers_full_avg__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'selector_sptr_pc_output_buffers_full_avg'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full_avg(int)\n"
+    "    gr::block::pc_output_buffers_full_avg()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_output_buffers_full_var__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_pc_output_buffers_full_var",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_pc_output_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "selector_sptr_pc_output_buffers_full_var" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full_var(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_output_buffers_full_var__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_pc_output_buffers_full_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_pc_output_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_output_buffers_full_var(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_selector_sptr_pc_output_buffers_full_var__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_selector_sptr_pc_output_buffers_full_var__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'selector_sptr_pc_output_buffers_full_var'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full_var(int)\n"
+    "    gr::block::pc_output_buffers_full_var()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_work_time(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_pc_work_time",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_pc_work_time" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_work_time_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_pc_work_time_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_pc_work_time_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_work_time_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_pc_work_time_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_pc_work_time_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_work_time_total(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_pc_work_time_total",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_pc_work_time_total" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_total();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_pc_throughput_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_pc_throughput_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_pc_throughput_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_throughput_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_set_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  std::vector< int,std::allocator< int > > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "mask", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:selector_sptr_set_processor_affinity",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_set_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    std::vector< int,std::allocator< int > > *ptr = (std::vector< int,std::allocator< int > > *)0;
+    res2 = swig::asptr(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "selector_sptr_set_processor_affinity" "', argument " "2"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "selector_sptr_set_processor_affinity" "', argument " "2"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    try {
+      (*arg1)->set_processor_affinity((std::vector< int,std::allocator< int > > const &)*arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_unset_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_unset_processor_affinity",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_unset_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_processor_affinity();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< int,std::allocator< int > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_processor_affinity",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (*arg1)->processor_affinity();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< int,std::allocator< int > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_active_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_active_thread_priority",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_active_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->active_thread_priority();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_thread_priority",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->thread_priority();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_set_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "priority", NULL 
+  };
+  int result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:selector_sptr_set_thread_priority",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_set_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "selector_sptr_set_thread_priority" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (int)(*arg1)->set_thread_priority(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_name" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (*arg1)->name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_symbol_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_symbol_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_symbol_name" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (*arg1)->symbol_name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_input_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::io_signature::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_input_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_input_signature" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (*arg1)->input_signature();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::io_signature::sptr(static_cast< const gr::io_signature::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_output_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::io_signature::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_output_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_output_signature" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (*arg1)->output_signature();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::io_signature::sptr(static_cast< const gr::io_signature::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_unique_id(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_unique_id",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_unique_id" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (long)(*arg1)->unique_id();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_to_basic_block(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::basic_block_sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_to_basic_block",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_to_basic_block" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (*arg1)->to_basic_block();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::basic_block_sptr(static_cast< const gr::basic_block_sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__basic_block_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_check_topology(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "ninputs",(char *) "noutputs", NULL 
+  };
+  bool result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:selector_sptr_check_topology",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_check_topology" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "selector_sptr_check_topology" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "selector_sptr_check_topology" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    try {
+      result = (bool)(*arg1)->check_topology(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_alias",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_alias" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (*arg1)->alias();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_set_block_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  std::string arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "name", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:selector_sptr_set_block_alias",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_set_block_alias" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    int res = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res) || !ptr) {
+      SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "selector_sptr_set_block_alias" "', argument " "2"" of type '" "std::string""'"); 
+    }
+    arg2 = *ptr;
+    if (SWIG_IsNewObj(res)) delete ptr;
+  }
+  {
+    try {
+      (*arg1)->set_block_alias(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr__post(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  pmt::pmt_t arg2 ;
+  pmt::pmt_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_port",(char *) "msg", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:selector_sptr__post",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr__post" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "selector_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "selector_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "selector_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "selector_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  {
+    try {
+      (*arg1)->_post(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_message_ports_in(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_message_ports_in",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_message_ports_in" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_in();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_message_ports_out(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"selector_sptr_message_ports_out",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_message_ports_out" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_out();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_selector_sptr_message_subscribers(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::DoA_BladeRF::selector > *arg1 = (boost::shared_ptr< gr::DoA_BladeRF::selector > *) 0 ;
+  pmt::pmt_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_port", NULL 
+  };
+  pmt::pmt_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:selector_sptr_message_subscribers",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "selector_sptr_message_subscribers" "', argument " "1"" of type '" "boost::shared_ptr< gr::DoA_BladeRF::selector > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::DoA_BladeRF::selector > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "selector_sptr_message_subscribers" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "selector_sptr_message_subscribers" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    try {
+      result = (*arg1)->message_subscribers(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *selector_sptr_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char *)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
 static PyMethodDef SwigMethods[] = {
 	 { (char *)"SWIG_PyInstanceMethod_New", (PyCFunction)SWIG_PyInstanceMethod_New, METH_O, NULL},
 	 { (char *)"high_res_timer_now", _wrap_high_res_timer_now, METH_VARARGS, (char *)"high_res_timer_now() -> gr::high_res_timer_type"},
@@ -32071,56 +35336,157 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"Delay_sptr_message_ports_out", _wrap_Delay_sptr_message_ports_out, METH_VARARGS, (char *)"Delay_sptr_message_ports_out(Delay_sptr self) -> swig_int_ptr"},
 	 { (char *)"Delay_sptr_message_subscribers", (PyCFunction) _wrap_Delay_sptr_message_subscribers, METH_VARARGS | METH_KEYWORDS, (char *)"Delay_sptr_message_subscribers(Delay_sptr self, swig_int_ptr which_port) -> swig_int_ptr"},
 	 { (char *)"Delay_sptr_swigregister", Delay_sptr_swigregister, METH_VARARGS, NULL},
+	 { (char *)"selector_make", (PyCFunction) _wrap_selector_make, METH_VARARGS | METH_KEYWORDS, (char *)"selector_make(int input_port) -> selector_sptr"},
+	 { (char *)"selector_set_port", (PyCFunction) _wrap_selector_set_port, METH_VARARGS | METH_KEYWORDS, (char *)"selector_set_port(selector self, int input_port)"},
+	 { (char *)"delete_selector", _wrap_delete_selector, METH_VARARGS, (char *)"delete_selector(selector self)"},
+	 { (char *)"selector_swigregister", selector_swigregister, METH_VARARGS, NULL},
+	 { (char *)"new_selector_sptr", _wrap_new_selector_sptr, METH_VARARGS, (char *)"\n"
+		"selector_sptr()\n"
+		"new_selector_sptr(selector p) -> selector_sptr\n"
+		""},
+	 { (char *)"selector_sptr___deref__", _wrap_selector_sptr___deref__, METH_VARARGS, (char *)"selector_sptr___deref__(selector_sptr self) -> selector"},
+	 { (char *)"delete_selector_sptr", _wrap_delete_selector_sptr, METH_VARARGS, (char *)"delete_selector_sptr(selector_sptr self)"},
+	 { (char *)"selector_sptr_make", (PyCFunction) _wrap_selector_sptr_make, METH_VARARGS | METH_KEYWORDS, (char *)"selector_sptr_make(selector_sptr self, int input_port) -> selector_sptr"},
+	 { (char *)"selector_sptr_set_port", (PyCFunction) _wrap_selector_sptr_set_port, METH_VARARGS | METH_KEYWORDS, (char *)"selector_sptr_set_port(selector_sptr self, int input_port)"},
+	 { (char *)"selector_sptr_history", _wrap_selector_sptr_history, METH_VARARGS, (char *)"selector_sptr_history(selector_sptr self) -> unsigned int"},
+	 { (char *)"selector_sptr_declare_sample_delay", _wrap_selector_sptr_declare_sample_delay, METH_VARARGS, (char *)"\n"
+		"declare_sample_delay(int which, int delay)\n"
+		"selector_sptr_declare_sample_delay(selector_sptr self, unsigned int delay)\n"
+		""},
+	 { (char *)"selector_sptr_sample_delay", (PyCFunction) _wrap_selector_sptr_sample_delay, METH_VARARGS | METH_KEYWORDS, (char *)"selector_sptr_sample_delay(selector_sptr self, int which) -> unsigned int"},
+	 { (char *)"selector_sptr_output_multiple", _wrap_selector_sptr_output_multiple, METH_VARARGS, (char *)"selector_sptr_output_multiple(selector_sptr self) -> int"},
+	 { (char *)"selector_sptr_relative_rate", _wrap_selector_sptr_relative_rate, METH_VARARGS, (char *)"selector_sptr_relative_rate(selector_sptr self) -> double"},
+	 { (char *)"selector_sptr_start", _wrap_selector_sptr_start, METH_VARARGS, (char *)"selector_sptr_start(selector_sptr self) -> bool"},
+	 { (char *)"selector_sptr_stop", _wrap_selector_sptr_stop, METH_VARARGS, (char *)"selector_sptr_stop(selector_sptr self) -> bool"},
+	 { (char *)"selector_sptr_nitems_read", (PyCFunction) _wrap_selector_sptr_nitems_read, METH_VARARGS | METH_KEYWORDS, (char *)"selector_sptr_nitems_read(selector_sptr self, unsigned int which_input) -> uint64_t"},
+	 { (char *)"selector_sptr_nitems_written", (PyCFunction) _wrap_selector_sptr_nitems_written, METH_VARARGS | METH_KEYWORDS, (char *)"selector_sptr_nitems_written(selector_sptr self, unsigned int which_output) -> uint64_t"},
+	 { (char *)"selector_sptr_max_noutput_items", _wrap_selector_sptr_max_noutput_items, METH_VARARGS, (char *)"selector_sptr_max_noutput_items(selector_sptr self) -> int"},
+	 { (char *)"selector_sptr_set_max_noutput_items", (PyCFunction) _wrap_selector_sptr_set_max_noutput_items, METH_VARARGS | METH_KEYWORDS, (char *)"selector_sptr_set_max_noutput_items(selector_sptr self, int m)"},
+	 { (char *)"selector_sptr_unset_max_noutput_items", _wrap_selector_sptr_unset_max_noutput_items, METH_VARARGS, (char *)"selector_sptr_unset_max_noutput_items(selector_sptr self)"},
+	 { (char *)"selector_sptr_is_set_max_noutput_items", _wrap_selector_sptr_is_set_max_noutput_items, METH_VARARGS, (char *)"selector_sptr_is_set_max_noutput_items(selector_sptr self) -> bool"},
+	 { (char *)"selector_sptr_set_min_noutput_items", (PyCFunction) _wrap_selector_sptr_set_min_noutput_items, METH_VARARGS | METH_KEYWORDS, (char *)"selector_sptr_set_min_noutput_items(selector_sptr self, int m)"},
+	 { (char *)"selector_sptr_min_noutput_items", _wrap_selector_sptr_min_noutput_items, METH_VARARGS, (char *)"selector_sptr_min_noutput_items(selector_sptr self) -> int"},
+	 { (char *)"selector_sptr_max_output_buffer", (PyCFunction) _wrap_selector_sptr_max_output_buffer, METH_VARARGS | METH_KEYWORDS, (char *)"selector_sptr_max_output_buffer(selector_sptr self, int i) -> long"},
+	 { (char *)"selector_sptr_set_max_output_buffer", _wrap_selector_sptr_set_max_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_max_output_buffer(long max_output_buffer)\n"
+		"selector_sptr_set_max_output_buffer(selector_sptr self, int port, long max_output_buffer)\n"
+		""},
+	 { (char *)"selector_sptr_min_output_buffer", (PyCFunction) _wrap_selector_sptr_min_output_buffer, METH_VARARGS | METH_KEYWORDS, (char *)"selector_sptr_min_output_buffer(selector_sptr self, int i) -> long"},
+	 { (char *)"selector_sptr_set_min_output_buffer", _wrap_selector_sptr_set_min_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_min_output_buffer(long min_output_buffer)\n"
+		"selector_sptr_set_min_output_buffer(selector_sptr self, int port, long min_output_buffer)\n"
+		""},
+	 { (char *)"selector_sptr_pc_noutput_items", _wrap_selector_sptr_pc_noutput_items, METH_VARARGS, (char *)"selector_sptr_pc_noutput_items(selector_sptr self) -> float"},
+	 { (char *)"selector_sptr_pc_noutput_items_avg", _wrap_selector_sptr_pc_noutput_items_avg, METH_VARARGS, (char *)"selector_sptr_pc_noutput_items_avg(selector_sptr self) -> float"},
+	 { (char *)"selector_sptr_pc_noutput_items_var", _wrap_selector_sptr_pc_noutput_items_var, METH_VARARGS, (char *)"selector_sptr_pc_noutput_items_var(selector_sptr self) -> float"},
+	 { (char *)"selector_sptr_pc_nproduced", _wrap_selector_sptr_pc_nproduced, METH_VARARGS, (char *)"selector_sptr_pc_nproduced(selector_sptr self) -> float"},
+	 { (char *)"selector_sptr_pc_nproduced_avg", _wrap_selector_sptr_pc_nproduced_avg, METH_VARARGS, (char *)"selector_sptr_pc_nproduced_avg(selector_sptr self) -> float"},
+	 { (char *)"selector_sptr_pc_nproduced_var", _wrap_selector_sptr_pc_nproduced_var, METH_VARARGS, (char *)"selector_sptr_pc_nproduced_var(selector_sptr self) -> float"},
+	 { (char *)"selector_sptr_pc_input_buffers_full", _wrap_selector_sptr_pc_input_buffers_full, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full(int which) -> float\n"
+		"selector_sptr_pc_input_buffers_full(selector_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"selector_sptr_pc_input_buffers_full_avg", _wrap_selector_sptr_pc_input_buffers_full_avg, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full_avg(int which) -> float\n"
+		"selector_sptr_pc_input_buffers_full_avg(selector_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"selector_sptr_pc_input_buffers_full_var", _wrap_selector_sptr_pc_input_buffers_full_var, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full_var(int which) -> float\n"
+		"selector_sptr_pc_input_buffers_full_var(selector_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"selector_sptr_pc_output_buffers_full", _wrap_selector_sptr_pc_output_buffers_full, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full(int which) -> float\n"
+		"selector_sptr_pc_output_buffers_full(selector_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"selector_sptr_pc_output_buffers_full_avg", _wrap_selector_sptr_pc_output_buffers_full_avg, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full_avg(int which) -> float\n"
+		"selector_sptr_pc_output_buffers_full_avg(selector_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"selector_sptr_pc_output_buffers_full_var", _wrap_selector_sptr_pc_output_buffers_full_var, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full_var(int which) -> float\n"
+		"selector_sptr_pc_output_buffers_full_var(selector_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"selector_sptr_pc_work_time", _wrap_selector_sptr_pc_work_time, METH_VARARGS, (char *)"selector_sptr_pc_work_time(selector_sptr self) -> float"},
+	 { (char *)"selector_sptr_pc_work_time_avg", _wrap_selector_sptr_pc_work_time_avg, METH_VARARGS, (char *)"selector_sptr_pc_work_time_avg(selector_sptr self) -> float"},
+	 { (char *)"selector_sptr_pc_work_time_var", _wrap_selector_sptr_pc_work_time_var, METH_VARARGS, (char *)"selector_sptr_pc_work_time_var(selector_sptr self) -> float"},
+	 { (char *)"selector_sptr_pc_work_time_total", _wrap_selector_sptr_pc_work_time_total, METH_VARARGS, (char *)"selector_sptr_pc_work_time_total(selector_sptr self) -> float"},
+	 { (char *)"selector_sptr_pc_throughput_avg", _wrap_selector_sptr_pc_throughput_avg, METH_VARARGS, (char *)"selector_sptr_pc_throughput_avg(selector_sptr self) -> float"},
+	 { (char *)"selector_sptr_set_processor_affinity", (PyCFunction) _wrap_selector_sptr_set_processor_affinity, METH_VARARGS | METH_KEYWORDS, (char *)"selector_sptr_set_processor_affinity(selector_sptr self, std::vector< int,std::allocator< int > > const & mask)"},
+	 { (char *)"selector_sptr_unset_processor_affinity", _wrap_selector_sptr_unset_processor_affinity, METH_VARARGS, (char *)"selector_sptr_unset_processor_affinity(selector_sptr self)"},
+	 { (char *)"selector_sptr_processor_affinity", _wrap_selector_sptr_processor_affinity, METH_VARARGS, (char *)"selector_sptr_processor_affinity(selector_sptr self) -> std::vector< int,std::allocator< int > >"},
+	 { (char *)"selector_sptr_active_thread_priority", _wrap_selector_sptr_active_thread_priority, METH_VARARGS, (char *)"selector_sptr_active_thread_priority(selector_sptr self) -> int"},
+	 { (char *)"selector_sptr_thread_priority", _wrap_selector_sptr_thread_priority, METH_VARARGS, (char *)"selector_sptr_thread_priority(selector_sptr self) -> int"},
+	 { (char *)"selector_sptr_set_thread_priority", (PyCFunction) _wrap_selector_sptr_set_thread_priority, METH_VARARGS | METH_KEYWORDS, (char *)"selector_sptr_set_thread_priority(selector_sptr self, int priority) -> int"},
+	 { (char *)"selector_sptr_name", _wrap_selector_sptr_name, METH_VARARGS, (char *)"selector_sptr_name(selector_sptr self) -> std::string"},
+	 { (char *)"selector_sptr_symbol_name", _wrap_selector_sptr_symbol_name, METH_VARARGS, (char *)"selector_sptr_symbol_name(selector_sptr self) -> std::string"},
+	 { (char *)"selector_sptr_input_signature", _wrap_selector_sptr_input_signature, METH_VARARGS, (char *)"selector_sptr_input_signature(selector_sptr self) -> io_signature_sptr"},
+	 { (char *)"selector_sptr_output_signature", _wrap_selector_sptr_output_signature, METH_VARARGS, (char *)"selector_sptr_output_signature(selector_sptr self) -> io_signature_sptr"},
+	 { (char *)"selector_sptr_unique_id", _wrap_selector_sptr_unique_id, METH_VARARGS, (char *)"selector_sptr_unique_id(selector_sptr self) -> long"},
+	 { (char *)"selector_sptr_to_basic_block", _wrap_selector_sptr_to_basic_block, METH_VARARGS, (char *)"selector_sptr_to_basic_block(selector_sptr self) -> basic_block_sptr"},
+	 { (char *)"selector_sptr_check_topology", (PyCFunction) _wrap_selector_sptr_check_topology, METH_VARARGS | METH_KEYWORDS, (char *)"selector_sptr_check_topology(selector_sptr self, int ninputs, int noutputs) -> bool"},
+	 { (char *)"selector_sptr_alias", _wrap_selector_sptr_alias, METH_VARARGS, (char *)"selector_sptr_alias(selector_sptr self) -> std::string"},
+	 { (char *)"selector_sptr_set_block_alias", (PyCFunction) _wrap_selector_sptr_set_block_alias, METH_VARARGS | METH_KEYWORDS, (char *)"selector_sptr_set_block_alias(selector_sptr self, std::string name)"},
+	 { (char *)"selector_sptr__post", (PyCFunction) _wrap_selector_sptr__post, METH_VARARGS | METH_KEYWORDS, (char *)"selector_sptr__post(selector_sptr self, swig_int_ptr which_port, swig_int_ptr msg)"},
+	 { (char *)"selector_sptr_message_ports_in", _wrap_selector_sptr_message_ports_in, METH_VARARGS, (char *)"selector_sptr_message_ports_in(selector_sptr self) -> swig_int_ptr"},
+	 { (char *)"selector_sptr_message_ports_out", _wrap_selector_sptr_message_ports_out, METH_VARARGS, (char *)"selector_sptr_message_ports_out(selector_sptr self) -> swig_int_ptr"},
+	 { (char *)"selector_sptr_message_subscribers", (PyCFunction) _wrap_selector_sptr_message_subscribers, METH_VARARGS | METH_KEYWORDS, (char *)"selector_sptr_message_subscribers(selector_sptr self, swig_int_ptr which_port) -> swig_int_ptr"},
+	 { (char *)"selector_sptr_swigregister", selector_sptr_swigregister, METH_VARARGS, NULL},
 	 { NULL, NULL, 0, NULL }
 };
 
 
 /* -------- TYPE CONVERSION AND EQUIVALENCE RULES (BEGIN) -------- */
 
+static void *_p_gr__tagged_stream_blockTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *)  ((gr::tagged_stream_block *) x));
+}
+static void *_p_gr__sync_blockTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *)  ((gr::sync_block *) x));
+}
+static void *_p_gr__DoA_BladeRF__mess_sink_fTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *) (gr::sync_block *) ((gr::DoA_BladeRF::mess_sink_f *) x));
+}
+static void *_p_gr__DoA_BladeRF__DelayTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *)  ((gr::DoA_BladeRF::Delay *) x));
+}
+static void *_p_gr__DoA_BladeRF__multi_expTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *) (gr::sync_block *) ((gr::DoA_BladeRF::multi_exp *) x));
+}
+static void *_p_gr__sync_interpolatorTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *) (gr::sync_block *) ((gr::sync_interpolator *) x));
+}
+static void *_p_gr__block_gatewayTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *)  ((gr::block_gateway *) x));
+}
 static void *_p_gr__DoA_BladeRF__DOATo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::block *) (gr::sync_block *) ((gr::DoA_BladeRF::DOA *) x));
 }
 static void *_p_gr__DoA_BladeRF__vector_steeringTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::block *) (gr::sync_block *) ((gr::DoA_BladeRF::vector_steering *) x));
 }
-static void *_p_gr__DoA_BladeRF__sample_offsetTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr::block *) (gr::sync_block *) ((gr::DoA_BladeRF::sample_offset *) x));
-}
-static void *_p_gr__DoA_BladeRF__DelayTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr::block *)  ((gr::DoA_BladeRF::Delay *) x));
-}
-static void *_p_gr__sync_decimatorTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr::block *) (gr::sync_block *) ((gr::sync_decimator *) x));
-}
-static void *_p_gr__DoA_BladeRF__mess_sink_fTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr::block *) (gr::sync_block *) ((gr::DoA_BladeRF::mess_sink_f *) x));
-}
 static void *_p_gr__DoA_BladeRF__PCATo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::block *) (gr::sync_block *) ((gr::DoA_BladeRF::PCA *) x));
 }
-static void *_p_gr__sync_blockTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr::block *)  ((gr::sync_block *) x));
-}
-static void *_p_gr__tagged_stream_blockTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr::block *)  ((gr::tagged_stream_block *) x));
-}
-static void *_p_gr__block_gatewayTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr::block *)  ((gr::block_gateway *) x));
+static void *_p_gr__DoA_BladeRF__sample_offsetTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *) (gr::sync_block *) ((gr::DoA_BladeRF::sample_offset *) x));
 }
 static void *_p_gr__DoA_BladeRF__HoldTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::block *) (gr::sync_block *) ((gr::DoA_BladeRF::Hold *) x));
 }
-static void *_p_gr__sync_interpolatorTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr::block *) (gr::sync_block *) ((gr::sync_interpolator *) x));
+static void *_p_gr__DoA_BladeRF__selectorTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *) (gr::sync_block *) ((gr::DoA_BladeRF::selector *) x));
 }
-static void *_p_gr__DoA_BladeRF__multi_expTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr::block *) (gr::sync_block *) ((gr::DoA_BladeRF::multi_exp *) x));
+static void *_p_gr__sync_decimatorTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *) (gr::sync_block *) ((gr::sync_decimator *) x));
 }
 static void *_p_gr__DoA_BladeRF__DOATo_p_gr__sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::sync_block *)  ((gr::DoA_BladeRF::DOA *) x));
 }
 static void *_p_gr__DoA_BladeRF__vector_steeringTo_p_gr__sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::sync_block *)  ((gr::DoA_BladeRF::vector_steering *) x));
+}
+static void *_p_gr__DoA_BladeRF__selectorTo_p_gr__sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::sync_block *)  ((gr::DoA_BladeRF::selector *) x));
 }
 static void *_p_gr__DoA_BladeRF__sample_offsetTo_p_gr__sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::sync_block *)  ((gr::DoA_BladeRF::sample_offset *) x));
@@ -32188,6 +35554,9 @@ static void *_p_gr__top_blockTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(n
 static void *_p_gr__DoA_BladeRF__HoldTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::basic_block *) (gr::block *)(gr::sync_block *) ((gr::DoA_BladeRF::Hold *) x));
 }
+static void *_p_gr__DoA_BladeRF__selectorTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::basic_block *) (gr::block *)(gr::sync_block *) ((gr::DoA_BladeRF::selector *) x));
+}
 static void *_p_gr__sync_decimatorTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::basic_block *) (gr::block *)(gr::sync_block *) ((gr::sync_decimator *) x));
 }
@@ -32200,6 +35569,7 @@ static swig_type_info _swigt__p_boost__shared_ptrT_gr__DoA_BladeRF__PCA_t = {"_p
 static swig_type_info _swigt__p_boost__shared_ptrT_gr__DoA_BladeRF__mess_sink_f_t = {"_p_boost__shared_ptrT_gr__DoA_BladeRF__mess_sink_f_t", "gr::DoA_BladeRF::mess_sink_f::sptr *|boost::shared_ptr< gr::DoA_BladeRF::mess_sink_f > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr__DoA_BladeRF__multi_exp_t = {"_p_boost__shared_ptrT_gr__DoA_BladeRF__multi_exp_t", "gr::DoA_BladeRF::multi_exp::sptr *|boost::shared_ptr< gr::DoA_BladeRF::multi_exp > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr__DoA_BladeRF__sample_offset_t = {"_p_boost__shared_ptrT_gr__DoA_BladeRF__sample_offset_t", "gr::DoA_BladeRF::sample_offset::sptr *|boost::shared_ptr< gr::DoA_BladeRF::sample_offset > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t = {"_p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t", "gr::DoA_BladeRF::selector::sptr *|boost::shared_ptr< gr::DoA_BladeRF::selector > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr__DoA_BladeRF__vector_steering_t = {"_p_boost__shared_ptrT_gr__DoA_BladeRF__vector_steering_t", "gr::DoA_BladeRF::vector_steering::sptr *|boost::shared_ptr< gr::DoA_BladeRF::vector_steering > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr__basic_block_t = {"_p_boost__shared_ptrT_gr__basic_block_t", "boost::shared_ptr< gr::basic_block > *|gr::basic_block_sptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr__block_detail_t = {"_p_boost__shared_ptrT_gr__block_detail_t", "boost::shared_ptr< gr::block_detail > *|gr::block_detail_sptr *", 0, 0, (void*)0, 0};
@@ -32221,6 +35591,7 @@ static swig_type_info _swigt__p_gr__DoA_BladeRF__PCA = {"_p_gr__DoA_BladeRF__PCA
 static swig_type_info _swigt__p_gr__DoA_BladeRF__mess_sink_f = {"_p_gr__DoA_BladeRF__mess_sink_f", "gr::DoA_BladeRF::mess_sink_f *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr__DoA_BladeRF__multi_exp = {"_p_gr__DoA_BladeRF__multi_exp", "gr::DoA_BladeRF::multi_exp *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr__DoA_BladeRF__sample_offset = {"_p_gr__DoA_BladeRF__sample_offset", "gr::DoA_BladeRF::sample_offset *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_gr__DoA_BladeRF__selector = {"_p_gr__DoA_BladeRF__selector", "gr::DoA_BladeRF::selector *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr__DoA_BladeRF__vector_steering = {"_p_gr__DoA_BladeRF__vector_steering", "gr::DoA_BladeRF::vector_steering *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr__basic_block = {"_p_gr__basic_block", "gr::basic_block *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr__tagged_stream_block = {"_p_gr__tagged_stream_block", 0, 0, 0, 0, 0};
@@ -32258,6 +35629,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_boost__shared_ptrT_gr__DoA_BladeRF__mess_sink_f_t,
   &_swigt__p_boost__shared_ptrT_gr__DoA_BladeRF__multi_exp_t,
   &_swigt__p_boost__shared_ptrT_gr__DoA_BladeRF__sample_offset_t,
+  &_swigt__p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t,
   &_swigt__p_boost__shared_ptrT_gr__DoA_BladeRF__vector_steering_t,
   &_swigt__p_boost__shared_ptrT_gr__basic_block_t,
   &_swigt__p_boost__shared_ptrT_gr__block_detail_t,
@@ -32279,6 +35651,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_gr__DoA_BladeRF__mess_sink_f,
   &_swigt__p_gr__DoA_BladeRF__multi_exp,
   &_swigt__p_gr__DoA_BladeRF__sample_offset,
+  &_swigt__p_gr__DoA_BladeRF__selector,
   &_swigt__p_gr__DoA_BladeRF__vector_steering,
   &_swigt__p_gr__basic_block,
   &_swigt__p_gr__block,
@@ -32316,6 +35689,7 @@ static swig_cast_info _swigc__p_boost__shared_ptrT_gr__DoA_BladeRF__PCA_t[] = { 
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr__DoA_BladeRF__mess_sink_f_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__DoA_BladeRF__mess_sink_f_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr__DoA_BladeRF__multi_exp_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__DoA_BladeRF__multi_exp_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr__DoA_BladeRF__sample_offset_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__DoA_BladeRF__sample_offset_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr__DoA_BladeRF__vector_steering_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__DoA_BladeRF__vector_steering_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr__basic_block_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__basic_block_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr__block_detail_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__block_detail_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -32337,6 +35711,7 @@ static swig_cast_info _swigc__p_gr__DoA_BladeRF__PCA[] = {  {&_swigt__p_gr__DoA_
 static swig_cast_info _swigc__p_gr__DoA_BladeRF__mess_sink_f[] = {  {&_swigt__p_gr__DoA_BladeRF__mess_sink_f, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__DoA_BladeRF__multi_exp[] = {  {&_swigt__p_gr__DoA_BladeRF__multi_exp, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__DoA_BladeRF__sample_offset[] = {  {&_swigt__p_gr__DoA_BladeRF__sample_offset, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__DoA_BladeRF__selector[] = {  {&_swigt__p_gr__DoA_BladeRF__selector, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__DoA_BladeRF__vector_steering[] = {  {&_swigt__p_gr__DoA_BladeRF__vector_steering, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__tagged_stream_block[] = {{&_swigt__p_gr__tagged_stream_block, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__hier_block2[] = {{&_swigt__p_gr__hier_block2, 0, 0, 0},{0, 0, 0, 0}};
@@ -32344,11 +35719,11 @@ static swig_cast_info _swigc__p_gr__sync_interpolator[] = {{&_swigt__p_gr__sync_
 static swig_cast_info _swigc__p_gr__block_gateway[] = {{&_swigt__p_gr__block_gateway, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__top_block[] = {{&_swigt__p_gr__top_block, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__sync_decimator[] = {{&_swigt__p_gr__sync_decimator, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gr__basic_block[] = {  {&_swigt__p_gr__block, _p_gr__blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__tagged_stream_block, _p_gr__tagged_stream_blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__sync_block, _p_gr__sync_blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__basic_block, 0, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__PCA, _p_gr__DoA_BladeRF__PCATo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__mess_sink_f, _p_gr__DoA_BladeRF__mess_sink_fTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__hier_block2, _p_gr__hier_block2To_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__multi_exp, _p_gr__DoA_BladeRF__multi_expTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__sync_interpolator, _p_gr__sync_interpolatorTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__block_gateway, _p_gr__block_gatewayTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__Hold, _p_gr__DoA_BladeRF__HoldTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__Delay, _p_gr__DoA_BladeRF__DelayTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__vector_steering, _p_gr__DoA_BladeRF__vector_steeringTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__sample_offset, _p_gr__DoA_BladeRF__sample_offsetTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__top_block, _p_gr__top_blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__sync_decimator, _p_gr__sync_decimatorTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__DOA, _p_gr__DoA_BladeRF__DOATo_p_gr__basic_block, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gr__block[] = {  {&_swigt__p_gr__sync_block, _p_gr__sync_blockTo_p_gr__block, 0, 0},  {&_swigt__p_gr__tagged_stream_block, _p_gr__tagged_stream_blockTo_p_gr__block, 0, 0},  {&_swigt__p_gr__block, 0, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__PCA, _p_gr__DoA_BladeRF__PCATo_p_gr__block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__mess_sink_f, _p_gr__DoA_BladeRF__mess_sink_fTo_p_gr__block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__multi_exp, _p_gr__DoA_BladeRF__multi_expTo_p_gr__block, 0, 0},  {&_swigt__p_gr__sync_interpolator, _p_gr__sync_interpolatorTo_p_gr__block, 0, 0},  {&_swigt__p_gr__block_gateway, _p_gr__block_gatewayTo_p_gr__block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__Delay, _p_gr__DoA_BladeRF__DelayTo_p_gr__block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__Hold, _p_gr__DoA_BladeRF__HoldTo_p_gr__block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__vector_steering, _p_gr__DoA_BladeRF__vector_steeringTo_p_gr__block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__sample_offset, _p_gr__DoA_BladeRF__sample_offsetTo_p_gr__block, 0, 0},  {&_swigt__p_gr__sync_decimator, _p_gr__sync_decimatorTo_p_gr__block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__DOA, _p_gr__DoA_BladeRF__DOATo_p_gr__block, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__basic_block[] = {  {&_swigt__p_gr__block, _p_gr__blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__tagged_stream_block, _p_gr__tagged_stream_blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__sync_block, _p_gr__sync_blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__basic_block, 0, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__PCA, _p_gr__DoA_BladeRF__PCATo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__mess_sink_f, _p_gr__DoA_BladeRF__mess_sink_fTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__hier_block2, _p_gr__hier_block2To_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__multi_exp, _p_gr__DoA_BladeRF__multi_expTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__sync_interpolator, _p_gr__sync_interpolatorTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__Hold, _p_gr__DoA_BladeRF__HoldTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__block_gateway, _p_gr__block_gatewayTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__Delay, _p_gr__DoA_BladeRF__DelayTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__vector_steering, _p_gr__DoA_BladeRF__vector_steeringTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__sample_offset, _p_gr__DoA_BladeRF__sample_offsetTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__selector, _p_gr__DoA_BladeRF__selectorTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__top_block, _p_gr__top_blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__sync_decimator, _p_gr__sync_decimatorTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__DOA, _p_gr__DoA_BladeRF__DOATo_p_gr__basic_block, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__block[] = {  {&_swigt__p_gr__tagged_stream_block, _p_gr__tagged_stream_blockTo_p_gr__block, 0, 0},  {&_swigt__p_gr__sync_block, _p_gr__sync_blockTo_p_gr__block, 0, 0},  {&_swigt__p_gr__block, 0, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__PCA, _p_gr__DoA_BladeRF__PCATo_p_gr__block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__mess_sink_f, _p_gr__DoA_BladeRF__mess_sink_fTo_p_gr__block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__multi_exp, _p_gr__DoA_BladeRF__multi_expTo_p_gr__block, 0, 0},  {&_swigt__p_gr__sync_interpolator, _p_gr__sync_interpolatorTo_p_gr__block, 0, 0},  {&_swigt__p_gr__block_gateway, _p_gr__block_gatewayTo_p_gr__block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__Hold, _p_gr__DoA_BladeRF__HoldTo_p_gr__block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__Delay, _p_gr__DoA_BladeRF__DelayTo_p_gr__block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__vector_steering, _p_gr__DoA_BladeRF__vector_steeringTo_p_gr__block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__sample_offset, _p_gr__DoA_BladeRF__sample_offsetTo_p_gr__block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__selector, _p_gr__DoA_BladeRF__selectorTo_p_gr__block, 0, 0},  {&_swigt__p_gr__sync_decimator, _p_gr__sync_decimatorTo_p_gr__block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__DOA, _p_gr__DoA_BladeRF__DOATo_p_gr__block, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__endianness_t[] = {  {&_swigt__p_gr__endianness_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__rt_status_t[] = {  {&_swigt__p_gr__rt_status_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gr__sync_block[] = {  {&_swigt__p_gr__DoA_BladeRF__PCA, _p_gr__DoA_BladeRF__PCATo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__vector_steering, _p_gr__DoA_BladeRF__vector_steeringTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__Hold, _p_gr__DoA_BladeRF__HoldTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__sample_offset, _p_gr__DoA_BladeRF__sample_offsetTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__DOA, _p_gr__DoA_BladeRF__DOATo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__sync_decimator, _p_gr__sync_decimatorTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__mess_sink_f, _p_gr__DoA_BladeRF__mess_sink_fTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__sync_block, 0, 0, 0},  {&_swigt__p_gr__sync_interpolator, _p_gr__sync_interpolatorTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__multi_exp, _p_gr__DoA_BladeRF__multi_expTo_p_gr__sync_block, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__sync_block[] = {  {&_swigt__p_gr__DoA_BladeRF__PCA, _p_gr__DoA_BladeRF__PCATo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__vector_steering, _p_gr__DoA_BladeRF__vector_steeringTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__selector, _p_gr__DoA_BladeRF__selectorTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__Hold, _p_gr__DoA_BladeRF__HoldTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__sample_offset, _p_gr__DoA_BladeRF__sample_offsetTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__DOA, _p_gr__DoA_BladeRF__DOATo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__sync_decimator, _p_gr__sync_decimatorTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__mess_sink_f, _p_gr__DoA_BladeRF__mess_sink_fTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__sync_block, 0, 0, 0},  {&_swigt__p_gr__sync_interpolator, _p_gr__sync_interpolatorTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__DoA_BladeRF__multi_exp, _p_gr__DoA_BladeRF__multi_expTo_p_gr__sync_block, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_int[] = {  {&_swigt__p_int, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_long_long[] = {  {&_swigt__p_long_long, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_reference[] = {  {&_swigt__p_reference, 0, 0, 0},{0, 0, 0, 0}};
@@ -32374,6 +35749,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_boost__shared_ptrT_gr__DoA_BladeRF__mess_sink_f_t,
   _swigc__p_boost__shared_ptrT_gr__DoA_BladeRF__multi_exp_t,
   _swigc__p_boost__shared_ptrT_gr__DoA_BladeRF__sample_offset_t,
+  _swigc__p_boost__shared_ptrT_gr__DoA_BladeRF__selector_t,
   _swigc__p_boost__shared_ptrT_gr__DoA_BladeRF__vector_steering_t,
   _swigc__p_boost__shared_ptrT_gr__basic_block_t,
   _swigc__p_boost__shared_ptrT_gr__block_detail_t,
@@ -32395,6 +35771,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_gr__DoA_BladeRF__mess_sink_f,
   _swigc__p_gr__DoA_BladeRF__multi_exp,
   _swigc__p_gr__DoA_BladeRF__sample_offset,
+  _swigc__p_gr__DoA_BladeRF__selector,
   _swigc__p_gr__DoA_BladeRF__vector_steering,
   _swigc__p_gr__basic_block,
   _swigc__p_gr__block,

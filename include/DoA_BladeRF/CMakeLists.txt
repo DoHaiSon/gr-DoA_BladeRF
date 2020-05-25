@@ -29,5 +29,6 @@ install(FILES
     vector_steering.h
     DOA.h
     sample_offset.h
-    Delay.h DESTINATION include/DoA_BladeRF
+    Delay.h
+    selector.h DESTINATION include/DoA_BladeRF
 )
