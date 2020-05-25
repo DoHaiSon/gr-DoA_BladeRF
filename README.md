@@ -14,14 +14,19 @@ The description of the installation is focussed on Ubunt#Installationu distribut
 To compile and install gr-DoA_BladeRF run:
 
 cd gr-DoA_BladeRF
+
 mkdir build
+
 cmake ..
+
 make
+
 sudo make install
 
 # Usage
 
 Run DoA.grc in /apps
+
 Change parameters for your system.
 
 Thanks so much for ideas and some Blocks made by [S. Whiting, D. Sorensen, T. K. Moon và J. H. Gunther](https://github.com/samwhiting/gnuradio-doa)
