@@ -5,7 +5,7 @@ Project made by Do Hai Son in 2020. (Tested on BladeRF x115).
 
 # Installation
 
-The description of the installation is focussed on Ubunt#Installationu distribution and its flavours. First make sure that you have all required packages (checked on Ubuntu 16.04 and 18.04):
+The description of the installation is focussed on Ubuntu distribution and its flavours. First make sure that you have all required packages (checked on Ubuntu 16.04 and 18.04):
 
 - GNU Radio 3.7 ( I'll convert to 3.8 if someone need it).
 - BladeRF lib, client: [https://github.com/Nuand/bladeRF](https://github.com/Nuand/bladeRF).
